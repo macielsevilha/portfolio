@@ -1,4 +1,4 @@
-   .main-conteudo {
+   .portfolio-v1-main-conteudo {
        display: flex;
        width: 100%;
        max-width: 1000px;
@@ -13,58 +13,58 @@
        background-size: cover;
    }
    
-   .main-texto {
+   .portfolio-v1-main-texto {
        padding: 50px;
        width: 700px;
    }
    
-   .main-texto h1 {
+   .portfolio-v1-main-texto h1 {
        font-size: 40px;
    }
    
-   .main-texto span {
+   .portfolio-v1-main-texto span {
        color: var(--cor03);
        display: flex;
        align-items: center;
    }
    
-   .main-texto img {
+   .portfolio-v1-main-texto img {
        width: 40px;
        height: 40px;
        margin-right: 5px;
        margin-top: 5px;
    }
    
-   .main-texto p {
+   .portfolio-v1-main-texto p {
        font-size: 14px;
        margin-top: -10px;
        text-indent: 1.5em;
        text-align: justify;
    }
    
-   .main-email {
+   .portfolio-v1-main-email {
        margin-top: 40px;
    }
    
-   .main-email input {
+   .portfolio-v1-main-email input {
        padding: 10px;
        border: none;
        box-shadow: 0px 0px 7px -8px var(--cor05);
        color: var(--cor03);
    }
    
-   .main-email input:focus {
+   .portfolio-v1-main-email input:focus {
        outline: none;
    }
    
-   .main-email button {
+   .portfolio-v1-main-email button {
        padding: 10px 20px;
        border: none;
        background-color: var(--cor03);
        color: var(--cor01);
    }
    
-   .main-fundo {
+   .portfolio-v1-main-fundo {
        background-image: url('../img/foto.jpg');
        background-repeat: no-repeat;
        background-position: right;

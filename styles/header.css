@@ -1,4 +1,4 @@
-.header-conteudo {
+.portfolio-v1-header-conteudo {
     margin: auto;
     width: 100%;
     max-width: 1200px;
@@ -7,14 +7,14 @@
     align-items: center;
 }
 
-.header-logoTipo {
+.portfolio-v1-header-logoTipo {
     font-size: 20px;
     padding-left: 20px;
     cursor: pointer;
     color: var(--cor04);
 }
 
-.header-logoTipo {
+.portfolio-v1-header-logoTipo {
     font-size: 20px;
     padding-right: 20px;
     display: inline-flex;
@@ -22,21 +22,21 @@
     transition: 0.3s;
 }
 
-.header-logoTipo:hover {
+.portfolio-v1-header-logoTipo:hover {
     transform: translateY(-7px);
 }
 
-.header-menu ul li {
+.portfolio-v1-header-menu ul li {
     display: inline-block;
     padding: 10px;
 }
 
-.header-menu ul li a {
+.portfolio-v1-header-menu ul li a {
     text-decoration: none;
     color: var(--cor03);
 }
 
-.header-redes-sociais span {
+.portfolio-v1-header-redes-sociais span {
     font-size: 20px;
     padding-right: 20px;
     display: inline-flex;
@@ -46,6 +46,6 @@
     color: var(--cor04);
 }
 
-.header-redes-sociais span:hover {
+.portfolio-v1-header-redes-sociais span:hover {
     transform: translateY(-7px);
 }
