@@ -1,5 +1,5 @@
 import { Navbar } from "../../_ui/Navbar/Navbar";
-import styles from './Header.module.css'
+import styles from './Header.module.scss'
 export function Header() {
     return (
         <div className={styles.container}>

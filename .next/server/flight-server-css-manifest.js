@@ -1,1 +1,23 @@
-self.__RSC_CSS_MANIFEST={"__entry_css_mods__":{"C:\\github\\portfolio\\src\\app\\page":["C:\\github\\portfolio\\src\\app\\page.module.css","C:\\github\\portfolio\\src\\app\\components\\_ui\\Navbar\\Navbar.module.css","C:\\github\\portfolio\\src\\app\\components\\surfaces\\Header\\Header.module.css","C:\\github\\portfolio\\src\\app\\globals.css","C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}"]},"C:\\github\\portfolio\\src\\app\\page.jsx":["C:\\github\\portfolio\\src\\app\\page.module.css"],"C:\\github\\portfolio\\src\\app\\layout.js":["C:\\github\\portfolio\\src\\app\\globals.css","C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}","C:\\github\\portfolio\\src\\app\\components\\surfaces\\Header\\Header.module.css","C:\\github\\portfolio\\src\\app\\components\\_ui\\Navbar\\Navbar.module.css"]}
+self.__RSC_CSS_MANIFEST={
+  "__entry_css_mods__": {
+    "C:\\github\\portfolio\\src\\app\\page": [
+      "C:\\github\\portfolio\\src\\app\\components\\_ui\\Button\\Button.module.scss",
+      "C:\\github\\portfolio\\src\\app\\page.module.scss",
+      "C:\\github\\portfolio\\src\\app\\components\\_ui\\Navbar\\Navbar.module.css",
+      "C:\\github\\portfolio\\src\\app\\components\\surfaces\\Header\\Header.module.scss",
+      "C:\\github\\portfolio\\src\\app\\globals.scss",
+      "C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}"
+    ]
+  },
+  "C:\\github\\portfolio\\src\\app\\page.jsx": [
+    "C:\\github\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\page.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+    "C:\\github\\portfolio\\src\\app\\page.module.scss",
+    "C:\\github\\portfolio\\src\\app\\components\\_ui\\Button\\Button.module.scss"
+  ],
+  "C:\\github\\portfolio\\src\\app\\layout.js": [
+    "C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}",
+    "C:\\github\\portfolio\\src\\app\\components\\_ui\\Navbar\\Navbar.module.css",
+    "C:\\github\\portfolio\\src\\app\\components\\surfaces\\Header\\Header.module.scss",
+    "C:\\github\\portfolio\\src\\app\\globals.scss"
+  ]
+}

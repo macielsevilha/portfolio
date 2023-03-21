@@ -1,1 +1,549 @@
-self.__RSC_MANIFEST={"__ssr_module_mapping__":{"26":{"":{"id":"9846","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"9846","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"9846","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"1681":{"":{"id":"7834","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"7834","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"7834","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"2575":{"":{"id":"3542","name":"","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false},"*":{"id":"3542","name":"*","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false},"default":{"id":"3542","name":"default","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false}},"2702":{"":{"id":"1797","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"1797","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"1797","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"3235":{"":{"id":"6341","name":"","chunks":["931:app/page-cbc5968242061322"],"async":false},"*":{"id":"6341","name":"*","chunks":["931:app/page-cbc5968242061322"],"async":false},"default":{"id":"6341","name":"default","chunks":["931:app/page-cbc5968242061322"],"async":false}},"8041":{"":{"id":"3643","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"3643","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"3643","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}}},"__edge_ssr_module_mapping__":{},"__entry_css_files__":{"C:\\github\\portfolio\\src\\app\\layout":["static/css/1d0ba506563dc13c.css","static/css/5a2d5c6b07289487.css","static/css/08af83c920b078d5.css","static/css/e83c174b49a599f0.css"],"C:\\github\\portfolio\\src\\app\\page":["static/css/33b2f99b2295dae9.css","static/css/68221481e0403545.css"]},"C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\app-router.js":{"":{"id":"2702","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"2702","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"2702","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js":{"":{"id":"2702","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"2702","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"2702","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\error-boundary.js":{"":{"id":"1681","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"1681","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"1681","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js":{"":{"id":"1681","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"1681","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"1681","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\layout-router.js":{"":{"id":"8041","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"8041","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"8041","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js":{"":{"id":"8041","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"8041","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"8041","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js":{"":{"id":"26","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"26","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"26","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js":{"":{"id":"26","name":"","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"*":{"id":"26","name":"*","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false},"default":{"id":"26","name":"default","chunks":["272:webpack-5d03176cf78b677a","701:701-3d0e1b64b039764a"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\client\\image.js":{"":{"id":"3235","name":"","chunks":["931:app/page-cbc5968242061322"],"async":false},"*":{"id":"3235","name":"*","chunks":["931:app/page-cbc5968242061322"],"async":false},"default":{"id":"3235","name":"default","chunks":["931:app/page-cbc5968242061322"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js":{"":{"id":"3235","name":"","chunks":["931:app/page-cbc5968242061322"],"async":false},"*":{"id":"3235","name":"*","chunks":["931:app/page-cbc5968242061322"],"async":false},"default":{"id":"3235","name":"default","chunks":["931:app/page-cbc5968242061322"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\client\\link.js":{"":{"id":"2575","name":"","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false},"*":{"id":"2575","name":"*","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false},"default":{"id":"2575","name":"default","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false}},"C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js":{"":{"id":"2575","name":"","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false},"*":{"id":"2575","name":"*","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false},"default":{"id":"2575","name":"default","chunks":["575:575-a393bbfbed5c1add","185:app/layout-2701333448955da6"],"async":false}},"C:\\github\\portfolio\\src\\app\\globals.css":{"default":{"id":"null","name":"default","chunks":["static/css/e83c174b49a599f0.css"]}},"C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}":{"default":{"id":"null","name":"default","chunks":["static/css/08af83c920b078d5.css"]}},"C:\\github\\portfolio\\src\\app\\components\\surfaces\\Header\\Header.module.css":{"default":{"id":"null","name":"default","chunks":["static/css/5a2d5c6b07289487.css"]}},"C:\\github\\portfolio\\src\\app\\components\\_ui\\Navbar\\Navbar.module.css":{"default":{"id":"null","name":"default","chunks":["static/css/1d0ba506563dc13c.css"]}},"C:\\github\\portfolio\\src\\app\\page.module.css":{"default":{"id":"null","name":"default","chunks":["static/css/68221481e0403545.css"]}},"C:\\github\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\page.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}":{"default":{"id":"null","name":"default","chunks":["static/css/33b2f99b2295dae9.css"]}}}
+self.__RSC_MANIFEST={
+  "__ssr_module_mapping__": {
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    }
+  },
+  "__edge_ssr_module_mapping__": {},
+  "__entry_css_files__": {
+    "C:\\github\\portfolio\\src\\app\\layout": [
+      "static/css/_app-client_src_app_globals_scss.css",
+      "static/css/_app-client_src_app_components_surfaces_Header_Header_module_scss.css",
+      "static/css/_app-client_src_app_components__ui_Navbar_Navbar_module_css.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Montserrat-f8d0d9.css"
+    ],
+    "C:\\github\\portfolio\\src\\app\\page": [
+      "static/css/_app-client_src_app_components__ui_Button_Button_module_scss.css",
+      "static/css/_app-client_src_app_page_module_scss.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css"
+    ]
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "*",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+      "name": "default",
+      "chunks": [
+        "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js": {
+    "": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Montserrat-f8d0d9.css"
+      ]
+    }
+  },
+  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Navbar\\Navbar.module.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_components__ui_Navbar_Navbar_module_css.css"
+      ]
+    }
+  },
+  "C:\\github\\portfolio\\src\\app\\components\\surfaces\\Header\\Header.module.scss": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_components_surfaces_Header_Header_module_scss.css"
+      ]
+    }
+  },
+  "C:\\github\\portfolio\\src\\app\\globals.scss": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_globals_scss.css"
+      ]
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\page.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css"
+      ]
+    }
+  },
+  "C:\\github\\portfolio\\src\\app\\page.module.scss": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_page_module_scss.css"
+      ]
+    }
+  },
+  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Button\\Button.module.scss": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_src_app_components__ui_Button_Button_module_scss.css"
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import { Header } from './components/surfaces/Header/Header'
 import { Montserrat } from '@next/font/google'
-import './globals.css'
+import './globals.scss'
 
 export const metadata = {
   title: 'Create Next App',

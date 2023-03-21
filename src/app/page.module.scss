@@ -1,0 +1,35 @@
+
+.container {
+  justify-content: center;
+  background-color: var();
+}
+
+.line {
+  background-color: rgb(130, 130, 130);
+  height: 100%;
+  width: 2px;
+  position: absolute;
+  z-index: -1;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0rem;
+  min-height: 100vh;
+  
+  h1 {
+    color: var(--portfolio-color-5);
+    font-size: var(--portfolio-size-1);
+  }
+  h2 {
+    color: var(--portfolio-color-4);
+    font-size: var(--portfolio-size-2);
+  }  
+  p {
+    color: var(--portfolio-color-3);
+    font-size: var(--portfolio-size-3);
+  }
+
+}
