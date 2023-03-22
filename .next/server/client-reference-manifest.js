@@ -130,6 +130,32 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/app/components/_ui/Button/Button.jsx": {
+      "": {
+        "id": "(sc_client)/./src/app/components/_ui/Button/Button.jsx",
+        "name": "",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/components/_ui/Button/Button.jsx",
+        "name": "*",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      },
+      "Button": {
+        "id": "(sc_client)/./src/app/components/_ui/Button/Button.jsx",
+        "name": "Button",
+        "chunks": [
+          "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -159,16 +185,16 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
+    "C:\\github\\portfolio\\src\\app\\page": [
+      "static/css/_app-client_src_app_page_module_scss.css",
+      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css",
+      "static/css/app/page.css"
+    ],
     "C:\\github\\portfolio\\src\\app\\layout": [
       "static/css/_app-client_src_app_globals_scss.css",
       "static/css/_app-client_src_app_components_surfaces_Header_Header_module_scss.css",
       "static/css/_app-client_src_app_components__ui_Navbar_Navbar_module_css.css",
       "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Montserrat-f8d0d9.css"
-    ],
-    "C:\\github\\portfolio\\src\\app\\page": [
-      "static/css/_app-client_src_app_components__ui_Button_Button_module_scss.css",
-      "static/css/_app-client_src_app_page_module_scss.css",
-      "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_page_jsx_import_Inter_argum-b85015.css"
     ]
   },
   "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\app-router.js": {
@@ -379,6 +405,15 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Button\\Button.module.scss": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
   "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\image.js": {
     "": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
@@ -425,6 +460,32 @@ self.__RSC_MANIFEST={
     "default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Button\\Button.jsx": {
+    "": {
+      "id": "(app-client)/./src/app/components/_ui/Button/Button.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/components/_ui/Button/Button.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "Button": {
+      "id": "(app-client)/./src/app/components/_ui/Button/Button.jsx",
+      "name": "Button",
       "chunks": [
         "app/page:app/page"
       ],
@@ -534,15 +595,6 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "static/css/_app-client_src_app_page_module_scss.css"
-      ]
-    }
-  },
-  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Button\\Button.module.scss": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_src_app_components__ui_Button_Button_module_scss.css"
       ]
     }
   }

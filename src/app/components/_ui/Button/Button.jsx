@@ -1,7 +1,12 @@
-import styles from './Button.module.scss'
+"use client";
+import { useLayoutEffect, useRef, useState } from 'react';
+import styles from './Button.module.scss';
 
 export function Button(props) {
-    return(
-        <button className={styles.button}>{props.name}</button>
+  
+    return (
+     <button className={styles.btn}>
+        <span>{props.name}</span>
+     </button>
     )
 }
