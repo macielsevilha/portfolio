@@ -1,21 +1,21 @@
-/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/app/components/_ui/Button/Button.module.scss ***!
-  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.Button_btn__8qEub {
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.btn {
   position: relative;
   background-color: rgb(55, 55, 55);
   color: white;
   overflow: hidden;
   padding: 10px 30px;
 }
-.Button_btn__8qEub span {
+.btn span {
   position: relative;
   z-index: 1;
 }
-.Button_btn__8qEub ::before {
+.btn ::before {
   content: "";
   position: absolute;
-  background-color: rgb(7, 185, 188);
+  background-color: rgb(195, 21, 21);
   border-radius: 50%;
   top: -2.5em;
   left: -3.5em;
@@ -25,8 +25,14 @@
   transform: translate(-50%, -50%);
   transition: width 0.7s, height 0.7s;
 }
-.Button_btn__8qEub :hover::before {
+.btn :hover::before {
   width: 500px;
   height: 500px;
   z-index: -1;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
 }

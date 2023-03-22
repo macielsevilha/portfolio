@@ -1,0 +1,35 @@
+
+.btn {
+    position: relative;
+    background-color: $bg-color;
+    color: $color-text;
+    overflow: hidden;
+    padding: 10px 30px;
+  
+    span {
+      position: relative;
+      z-index: 1;
+    }
+  
+    ::before {
+      content: '';
+      position: absolute;
+      background-color: $circle-bg-color;
+      border-radius: 50%;
+      top: -2.5em;
+      left: -3.5em;
+  
+      width: 0;
+      height: 0;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      transition: width 0.7s, height 0.7s;
+      
+    }
+  
+    :hover::before {
+      width: 500px;
+      height: 500px;
+      z-index: -1;
+    }
+  }

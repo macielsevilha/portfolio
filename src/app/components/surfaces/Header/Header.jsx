@@ -1,4 +1,4 @@
-import { Navbar } from "../../_ui/Navbar/Navbar";
+import { Navbar } from "../../_ui/Navbar";
 import styles from './Header.module.scss'
 export function Header() {
     return (
