@@ -6,13 +6,16 @@
       size: 20px; 
       weight: 300;
     }
+    &:hover {
+      background-color: rgb(120, 120, 120)
+    }
 }
-.btn {
+.#{$brand}-button {
     @extend %btn;
     position: relative;
     background-color: $bg-color;
     color: $color-text;
-    span {
+    & > span {
       position: relative;
       z-index: 1;
     }
@@ -39,11 +42,14 @@
     }
   }
 
-.link {
+.#{$brand}-links {
   @extend %btn;
   border: {
     width: 2px;
     color: $circle-bg-color;
     radius: 10px
+  }
+  &:hover {
+    color: chartreuse;
   }
 }

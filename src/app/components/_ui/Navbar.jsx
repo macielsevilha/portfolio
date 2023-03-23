@@ -1,18 +1,14 @@
 
-
-import Link from "next/link";
-import { ButtonCircle } from "./Button";
-
-
+import { Links } from "./Buttons";
 export function Navbar() {
     return (
         <nav className="navbar">
             <ul className="flex my-2">
                 <li>
-                    <Link href={'contato'}>Contato</Link>
+                    contato
                 </li>
                 <li>
-                    <ButtonCircle name="Projetos" />
+                    <Links name="Projetos" />
                 </li>
             </ul>
         </nav>

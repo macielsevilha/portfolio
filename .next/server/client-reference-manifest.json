@@ -130,9 +130,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/_ui/Button.jsx": {
+    "(app-client)/./src/app/components/_ui/Buttons.jsx": {
       "": {
-        "id": "(sc_client)/./src/app/components/_ui/Button.jsx",
+        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
         "name": "",
         "chunks": [
           "app/layout:app/layout"
@@ -140,7 +140,7 @@
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./src/app/components/_ui/Button.jsx",
+        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
         "name": "*",
         "chunks": [
           "app/layout:app/layout"
@@ -148,42 +148,16 @@
         "async": false
       },
       "Button": {
-        "id": "(sc_client)/./src/app/components/_ui/Button.jsx",
+        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
         "name": "Button",
         "chunks": [
           "app/layout:app/layout"
         ],
         "async": false
       },
-      "ButtonCircle": {
-        "id": "(sc_client)/./src/app/components/_ui/Button.jsx",
-        "name": "ButtonCircle",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
+      "Links": {
+        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
+        "name": "Links",
         "chunks": [
           "app/layout:app/layout"
         ],
@@ -475,9 +449,9 @@
       "async": false
     }
   },
-  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Button.jsx": {
+  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Buttons.jsx": {
     "": {
-      "id": "(app-client)/./src/app/components/_ui/Button.jsx",
+      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
       "name": "",
       "chunks": [
         "app/layout:app/layout"
@@ -485,7 +459,7 @@
       "async": false
     },
     "*": {
-      "id": "(app-client)/./src/app/components/_ui/Button.jsx",
+      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
       "name": "*",
       "chunks": [
         "app/layout:app/layout"
@@ -493,68 +467,16 @@
       "async": false
     },
     "Button": {
-      "id": "(app-client)/./src/app/components/_ui/Button.jsx",
+      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
       "name": "Button",
       "chunks": [
         "app/layout:app/layout"
       ],
       "async": false
     },
-    "ButtonCircle": {
-      "id": "(app-client)/./src/app/components/_ui/Button.jsx",
-      "name": "ButtonCircle",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "C:\\github\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
+    "Links": {
+      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
+      "name": "Links",
       "chunks": [
         "app/layout:app/layout"
       ],

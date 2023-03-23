@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.scss'
-import { Button } from './components/_ui/Button'
+import { Button } from './components/_ui/Buttons'
 
 const inter = Inter({ subsets: ['latin'] })
 

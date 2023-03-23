@@ -1,24 +1,27 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.link, .btn {
+.portfolio-links, .portfolio-button {
   padding: 10px 25px;
   overflow: hidden;
   font-family: " monospace";
   font-size: 20px;
   font-weight: 300;
 }
+.portfolio-links:hover, .portfolio-button:hover {
+  background-color: rgb(120, 120, 120);
+}
 
-.btn {
+.portfolio-button {
   position: relative;
   background-color: rgb(55, 55, 55);
   color: white;
 }
-.btn span {
+.portfolio-button > span {
   position: relative;
   z-index: 1;
 }
-.btn ::before {
+.portfolio-button ::before {
   content: "";
   position: absolute;
   background-color: rgb(195, 21, 21);
@@ -31,16 +34,19 @@
   transform: translate(-50%, -50%);
   transition: width 0.7s, height 0.7s;
 }
-.btn :hover::before {
+.portfolio-button :hover::before {
   width: 500px;
   height: 500px;
   z-index: -1;
 }
 
-.link {
+.portfolio-links {
   border-width: 2px;
   border-color: rgb(195, 21, 21);
   border-radius: 10px;
+}
+.portfolio-links:hover {
+  color: chartreuse;
 }
 
 .navbar {
