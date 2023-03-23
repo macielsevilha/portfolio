@@ -1,16 +1,22 @@
-
+%btn {
+    padding: 10px 25px;
+    overflow: hidden;
+    font: {
+      family: " monospace";
+      size: 20px; 
+      weight: 300;
+    }
+}
 .btn {
+    @extend %btn;
     position: relative;
     background-color: $bg-color;
     color: $color-text;
-    overflow: hidden;
-    padding: 10px 30px;
-  
     span {
       position: relative;
       z-index: 1;
     }
-  
+
     ::before {
       content: '';
       position: absolute;
@@ -26,10 +32,18 @@
       transition: width 0.7s, height 0.7s;
       
     }
-  
     :hover::before {
       width: 500px;
       height: 500px;
       z-index: -1;
     }
   }
+
+.link {
+  @extend %btn;
+  border: {
+    width: 2px;
+    color: $circle-bg-color;
+    radius: 10px
+  }
+}
