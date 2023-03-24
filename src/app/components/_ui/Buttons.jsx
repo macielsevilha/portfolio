@@ -6,9 +6,11 @@ import '../../sass/app.scss';
 export function Button(props) {
   
     return (
-     <button className="portfolio-button">
-        <span>{props.name}</span>
-     </button>
+    <div className="portfolio-button">
+         <a href=''>
+        <i></i><span>{props.name}</span>
+     </a>
+    </div>
     )
 }
 
