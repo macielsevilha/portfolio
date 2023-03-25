@@ -1,100 +1,47 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-* {
-  box-sizing: border-box;
-}
-
-.portfolio-button a {
+.portfolio-btn__button a {
+  position: relative;
   background-color: #333;
+  color: white;
   padding: 10px 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 0.1px;
-  font-size: 1.25em;
-  font-family: "Poppins";
-  position: relative;
   gap: 10px;
 }
-
-.portfolio-button a::before {
+.portfolio-btn__button a::before {
   content: "";
   position: absolute;
+  background-color: #0688e4;
   width: 100%;
   height: 100%;
-  background-color: rgb(5, 152, 216);
   transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s;
   transform-origin: right;
 }
-
-.portfolio-button a:hover::before {
+.portfolio-btn__button a:hover {
+  color: #333;
+}
+.portfolio-btn__button a:hover::before {
   transform: scaleX(1);
   transform-origin: left;
 }
-
-.portfolio-button a span {
+.portfolio-btn__button a span, .portfolio-btn__button a i {
   z-index: 1;
 }
-
-.portfolio-button a:hover {
-  color: #333;
-}
-
-.portfolio-button a i {
+.portfolio-btn__button a i {
   position: relative;
-  background-color: yellow;
+  background-color: #d9e406;
   width: 3px;
   height: 30px;
-  z-index: 1;
-  transition: 0.5s, width 0.5s, height 0.5s;
+  transition: 0.5s ease-in-out;
 }
-
-.portfolio-button a:hover i {
+.portfolio-btn__button a:hover > i {
+  background-color: #333;
   width: 30px;
   height: 3px;
-  transition-delay: 0.5s, 0.5s, 0.1s;
-  background-color: #333;
-}
-
-.portfolio-button i::after {
-  content: "";
-  position: absolute;
-  top: 0.5px;
-  width: 50%;
-  height: 2.5px;
-  background-color: transparent;
-  transform-origin: right;
-  transition: 1s ease-in-out;
-  rotate: 0;
-}
-
-.portfolio-button a:hover i::after {
-  background-color: #333;
-  rotate: 45deg;
-  transition-delay: 1.5s;
-}
-
-.portfolio-button i::before {
-  content: "";
-  position: absolute;
-  top: 0.5px;
-  width: 50%;
-  height: 2.5px;
-  background-color: transparent;
-  transform-origin: right;
-  transition: 1s ease-in-out;
-  rotate: 0;
-}
-
-.portfolio-button a:hover i::before {
-  background-color: #333;
-  rotate: -45deg;
-  transition-delay: 1.5s;
 }
 
 .navbar {

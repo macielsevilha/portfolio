@@ -1,92 +1,97 @@
-* {
-  box-sizing: border-box;
-}
-
-.#{$brand}-button a{
+%btn {
+  position: relative;
   background-color: #333;
+  color: white;
   padding: 10px 30px;
-
+}
+.#{$brand}-btn__button a{
+  @extend %btn;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  color: #FFF;
-  text-transform: uppercase;
-  font-weight: 500;
-  letter-spacing: 0.1px;
-  font-size: 1.25em;
-  font-family: "Poppins";
-
-  position: relative;
   gap: 10px;
-}
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: $accent-color-one;
+      width: 100%;
+      height: 100%;
+      transform: scaleX(0);
+      transition: transform 0.5s;
+      transform-origin: right;
+    }
+    &:hover {
+      color: $dark-theme;
+      &::before {
+        transform: scaleX(1);
+        transform-origin: left;
+      }
+    }
+    span, i{
+      z-index: 1;
+      
+    }
+    i {
+      position: relative;
+      background-color: $accent-color-two;
+      width: 3px;
+      height: 30px;
+      transition: 0.5s ease-in-out;
+    }
+    &:hover > i {
+      background-color: $dark-theme;
+      width: 30px;
+      height: 3px;
+    }
+  }
 
-.#{$brand}-button a::before{
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-
-  background-color: rgb(5, 152, 216);
-  transform: scaleX(0);
-  transition: transform 0.5s ease-in-out;
-  transform-origin: right;
-}
-
-.#{$brand}-button a:hover::before{
-  transform: scaleX(1);
-  transform-origin: left;
-}
-.#{$brand}-button a span{
-  z-index: 1;
-}
-.#{$brand}-button a:hover{
-  color: #333;
-}
-.#{$brand}-button a i{
-  position: relative;
-  background-color: yellow;
-  width: 3px;
-  height: 30px;
-  z-index: 1;
-  transition: 0.5s, width 0.5s, height 0.5s;
-}
-.#{$brand}-button a:hover i{
-    width: 30px;
-    height: 3px;
-    transition-delay: 0.5s, 0.5s, 0.1s;
-    background-color: #333;
-} 
-.#{$brand}-button i::after{
-    content: '';
-    position: absolute;
-    top: 0.5px;
-    width: 50%;
-    height: 2.5px;
-    background-color: transparent;
-    transform-origin: right;
-    transition: 1s ease-in-out;
-    rotate: 0;
-} 
-.#{$brand}-button a:hover i::after{
-    background-color: #333;
-    rotate: 45deg;
-    transition-delay: 1.5s;
-} 
-.#{$brand}-button i::before{
-    content: '';
-    position: absolute;
-    top: 0.5px;
-    width: 50%;
-    height: 2.5px;
-    background-color: transparent;
-    transform-origin: right;
-    transition: 1s ease-in-out;
-    rotate: 0;
-} 
-.#{$brand}-button a:hover i::before{
-    background-color: #333;
-    rotate: -45deg;
-    transition-delay: 1.5s;
-} 
-
+// .#{$brand}-button a:hover{
+//   color: #333;
+// }
+// .#{$brand}-button a i{
+//   position: relative;
+//   background-color: yellow;
+//   width: 2px;
+//   height: 30px;
+//   z-index: 1;
+//   transition: 0.5s, width 0.5s, height 0.5s;
+//   transition-delay: 0s, 0.5s, 1s;
+// }
+// .#{$brand}-button a:hover i{
+//     width: 30px;
+//     height: 3px;
+//     transition-delay: 0s, 0.5s, 1s;
+//     background-color: #333;
+// } 
+// .#{$brand}-button i::after{
+//     content: '';
+//     position: absolute;
+//     top: -0.2px;
+//     width: 50%;
+//     height: 2px;
+//     background-color: transparent;
+//     transform-origin: right;
+//     transition: 1s;
+//     rotate: 0;
+// } 
+// .#{$brand}-button a:hover i::after{
+//     background-color: #333;
+//     rotate: 45deg;
+//     transition-delay: 1.0s;
+// } 
+// .#{$brand}-button i::before{
+//     content: '';
+//     position: absolute;
+//     top: 0.2px;
+//     width: 50%;
+//     height: 2px;
+//     background-color: transparent;
+//     transform-origin: right;
+//     transition: 1s;
+//     rotate: 0;
+// } 
+// .#{$brand}-button a:hover i::before{
+//     background-color: #333;
+//     rotate: -45deg;
+//     transition-delay: 0.5s;
+// } 
