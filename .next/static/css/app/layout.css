@@ -4,8 +4,8 @@
 .portfolio-btn__button a {
   position: relative;
   background-color: #333;
-  color: white;
-  padding: 10px 30px;
+  color: whitesmoke;
+  padding: 7px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,12 +36,48 @@
   background-color: #d9e406;
   width: 3px;
   height: 30px;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s, width 0.5s, height 0.5s;
+  transition-delay: 0s, 0.5s, 1s;
 }
 .portfolio-btn__button a:hover > i {
   background-color: #333;
+  transition-delay: 0s, 0.5s, 1s;
   width: 30px;
   height: 3px;
+}
+.portfolio-btn__button a i::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2.5px;
+  top: 0.2px;
+  background-color: transparent;
+  transition-delay: 1s;
+  transform-origin: right;
+  transition: 1s;
+  rotate: 0;
+}
+.portfolio-btn__button a i::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2.5px;
+  top: 0.2px;
+  background-color: transparent;
+  transition-delay: 1s;
+  transform-origin: right;
+  transition: 1s;
+  rotate: 0;
+}
+.portfolio-btn__button a:hover > i::after {
+  transition-delay: 1s;
+  background-color: #333;
+  rotate: 45deg;
+}
+.portfolio-btn__button a:hover > i::before {
+  transition-delay: 1s;
+  background-color: #333;
+  rotate: -45deg;
 }
 
 .navbar {

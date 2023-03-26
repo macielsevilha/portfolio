@@ -1,8 +1,8 @@
 %btn {
   position: relative;
-  background-color: #333;
-  color: white;
-  padding: 10px 30px;
+  background-color: $dark-theme;
+  color: whitesmoke;
+  padding: 7px 20px;
 }
 .#{$brand}-btn__button a{
   @extend %btn;
@@ -29,69 +29,44 @@
     }
     span, i{
       z-index: 1;
-      
     }
     i {
       position: relative;
       background-color: $accent-color-two;
       width: 3px;
       height: 30px;
-      transition: 0.5s ease-in-out;
+      transition: 0.5s, width 0.5s, height 0.5s;
+      transition-delay: 0s, 0.5s, 1s;
     }
     &:hover > i {
       background-color: $dark-theme;
+      transition-delay: 0s, 0.5s, 1s;
       width: 30px;
       height: 3px;
     }
+    @mixin animaton($n) {
+      i::#{$n} {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 2.5px;
+        top: 0.2px;
+        background-color: transparent;
+        transition-delay: 1s;
+        transform-origin: right;
+        transition: 1s;
+        rotate: 0;
+      }
+    }
+    @mixin duration($n, $d) {
+      &:hover > i::#{$n} {
+        transition-delay: 1.0s;
+        background-color: $dark-theme;
+        rotate: $d;
+      }
+    }
+     @include animaton('after');
+     @include animaton('before');
+     @include duration('after', 45deg);
+     @include duration('before', -45deg);
   }
-
-// .#{$brand}-button a:hover{
-//   color: #333;
-// }
-// .#{$brand}-button a i{
-//   position: relative;
-//   background-color: yellow;
-//   width: 2px;
-//   height: 30px;
-//   z-index: 1;
-//   transition: 0.5s, width 0.5s, height 0.5s;
-//   transition-delay: 0s, 0.5s, 1s;
-// }
-// .#{$brand}-button a:hover i{
-//     width: 30px;
-//     height: 3px;
-//     transition-delay: 0s, 0.5s, 1s;
-//     background-color: #333;
-// } 
-// .#{$brand}-button i::after{
-//     content: '';
-//     position: absolute;
-//     top: -0.2px;
-//     width: 50%;
-//     height: 2px;
-//     background-color: transparent;
-//     transform-origin: right;
-//     transition: 1s;
-//     rotate: 0;
-// } 
-// .#{$brand}-button a:hover i::after{
-//     background-color: #333;
-//     rotate: 45deg;
-//     transition-delay: 1.0s;
-// } 
-// .#{$brand}-button i::before{
-//     content: '';
-//     position: absolute;
-//     top: 0.2px;
-//     width: 50%;
-//     height: 2px;
-//     background-color: transparent;
-//     transform-origin: right;
-//     transition: 1s;
-//     rotate: 0;
-// } 
-// .#{$brand}-button a:hover i::before{
-//     background-color: #333;
-//     rotate: -45deg;
-//     transition-delay: 0.5s;
-// } 
