@@ -17,7 +17,9 @@ export function Button(props) {
 
 export function Links(props) {
     return (
-        <Link className='portfolio-btn-links text-danger' href="">{props.name}</Link>
+       <div className='portfolio-btn__link'>
+         <Link  href="">{props.name}</Link>
+       </div>
     )
 }
 

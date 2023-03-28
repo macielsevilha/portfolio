@@ -5,9 +5,9 @@ export function Navbar() {
         <nav className="navbar">
             <ul className="flex my-2">
                 <li>
-                    contato
+                    <Links name="Contato" />
                 </li>
-                <li>
+                <li className="bg-white rounded-full border border-slate-400">
                     <Links name="Projetos" />
                 </li>
             </ul>

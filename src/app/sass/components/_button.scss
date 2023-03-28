@@ -12,6 +12,7 @@
   color: map-get($map: $palette, $key: 'light');
   padding: 7px 20px;
 }
+
 .#{$brand}-btn__button a{
   @extend %btn;
   display: flex;
@@ -80,4 +81,11 @@
     }
     @include duration('after', 45deg);
     @include duration('before', -45deg);
+  }
+
+  .#{$brand}-btn__link {
+    @extend %btn;
+    a {
+      color: map-get($map: $palette, $key: 'dark'); 
+    }
   }

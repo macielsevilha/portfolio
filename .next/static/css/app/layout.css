@@ -49,10 +49,13 @@
   color: #FFFFFF;
 }
 
-.portfolio-btn__button a {
+.portfolio-btn__link, .portfolio-btn__button a {
   position: relative;
   color: #FFFFFF;
   padding: 7px 20px;
+}
+
+.portfolio-btn__button a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,6 +130,10 @@
   transition-delay: 1s;
   background-color: #333;
   rotate: -45deg;
+}
+
+.portfolio-btn__link a {
+  color: #343A40;
 }
 
 .navbar {
