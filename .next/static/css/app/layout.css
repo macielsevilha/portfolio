@@ -1,10 +1,57 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.bg-primary {
+  background-color: #007BFF;
+}
+
+.text-primary {
+  color: #007BFF;
+}
+
+.bg-secondary {
+  background-color: #6C757D;
+}
+
+.text-secondary {
+  color: #6C757D;
+}
+
+.bg-success {
+  background-color: #28A745;
+}
+
+.text-success {
+  color: #28A745;
+}
+
+.bg-danger {
+  background-color: #DC3545;
+}
+
+.text-danger {
+  color: #DC3545;
+}
+
+.bg-dark {
+  background-color: #343A40;
+}
+
+.text-dark {
+  color: #343A40;
+}
+
+.bg-light {
+  background-color: #FFFFFF;
+}
+
+.text-light {
+  color: #FFFFFF;
+}
+
 .portfolio-btn__button a {
   position: relative;
-  background-color: #333;
-  color: whitesmoke;
+  color: #FFFFFF;
   padding: 7px 20px;
   display: flex;
   justify-content: center;
@@ -51,6 +98,7 @@
   width: 50%;
   height: 2.5px;
   top: 0.2px;
+  border-radius: 5em;
   background-color: transparent;
   transition-delay: 1s;
   transform-origin: right;
@@ -63,6 +111,7 @@
   width: 50%;
   height: 2.5px;
   top: 0.2px;
+  border-radius: 5em;
   background-color: transparent;
   transition-delay: 1s;
   transform-origin: right;
@@ -84,4 +133,52 @@
   height: 70px;
   display: flex;
   align-items: center;
+}
+
+.bg-primary {
+  background-color: #007BFF;
+}
+
+.text-primary {
+  color: #007BFF;
+}
+
+.bg-secondary {
+  background-color: #6C757D;
+}
+
+.text-secondary {
+  color: #6C757D;
+}
+
+.bg-success {
+  background-color: #28A745;
+}
+
+.text-success {
+  color: #28A745;
+}
+
+.bg-danger {
+  background-color: #DC3545;
+}
+
+.text-danger {
+  color: #DC3545;
+}
+
+.bg-dark {
+  background-color: #343A40;
+}
+
+.text-dark {
+  color: #343A40;
+}
+
+.bg-light {
+  background-color: #FFFFFF;
+}
+
+.text-light {
+  color: #FFFFFF;
 }

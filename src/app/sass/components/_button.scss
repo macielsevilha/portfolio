@@ -1,7 +1,15 @@
+@mixin property($n, $c) {
+  .bg-#{$n} { background-color: $c; }
+  .text-#{$n} { color: $c; }
+}
+
+@each $n, $c in $palette {
+  @include property($n, $c) 
+}
+
 %btn {
   position: relative;
-  background-color: $dark-theme;
-  color: whitesmoke;
+  color: map-get($map: $palette, $key: 'light');
   padding: 7px 20px;
 }
 .#{$brand}-btn__button a{
@@ -51,6 +59,7 @@
         width: 50%;
         height: 2.5px;
         top: 0.2px;
+        border-radius: 5em;
         background-color: transparent;
         transition-delay: 1s;
         transform-origin: right;
@@ -58,6 +67,10 @@
         rotate: 0;
       }
     }
+
+    @include animaton('after');
+    @include animaton('before');
+
     @mixin duration($n, $d) {
       &:hover > i::#{$n} {
         transition-delay: 1.0s;
@@ -65,8 +78,6 @@
         rotate: $d;
       }
     }
-     @include animaton('after');
-     @include animaton('before');
-     @include duration('after', 45deg);
-     @include duration('before', -45deg);
+    @include duration('after', 45deg);
+    @include duration('before', -45deg);
   }

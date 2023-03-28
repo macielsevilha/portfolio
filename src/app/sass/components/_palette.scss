@@ -1,0 +1,11 @@
+@mixin property($n, $c) {
+    .bg-#{$n} {
+      background-color: $c;
+    }
+    .text-#{$n} {
+        color: $c;
+    }
+  }
+@each $n, $c in $palette {
+    @include property($n, $c) 
+}
