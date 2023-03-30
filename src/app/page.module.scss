@@ -20,16 +20,12 @@
   min-height: 100vh;
   
   h1 {
-    color: var(--portfolio-color-5);
-    font-size: var(--portfolio-size-1);
+    font-size: 35px;
   }
   h2 {
-    color: var(--portfolio-color-4);
-    font-size: var(--portfolio-size-2);
-  }  
-  p {
-    color: var(--portfolio-color-3);
-    font-size: var(--portfolio-size-3);
+    font-size: 20px;
   }
-
+  p {
+    font-size: 15px;
+  }
 }

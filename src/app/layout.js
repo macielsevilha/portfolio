@@ -1,4 +1,4 @@
-import { Header } from './components/surfaces/Header/Header'
+import { Header } from './components/surfaces/Header'
 import { Montserrat } from '@next/font/google'
 import './globals.scss'
 
