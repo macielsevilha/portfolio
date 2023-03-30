@@ -1,12 +1,6 @@
-
-
-:root {
-  --light: $light;
-  --dange: $danger;
-}
 %btn {
   position: relative;
-  color: map-get($map: $palette, $key: 'light');
+  color: hue('light');
   padding: 7px 20px;
 }
 
@@ -19,7 +13,7 @@
     &::before {
       content: '';
       position: absolute;
-      background-color: $accent-color-one;
+      background-color: hue('success');
       width: 100%;
       height: 100%;
       transform: scaleX(0);
@@ -38,14 +32,14 @@
     }
     i {
       position: relative;
-      background-color: $accent-color-two;
+      background-color: hue('danger');
       width: 3px;
       height: 30px;
       transition: 0.5s, width 0.5s, height 0.5s;
       transition-delay: 0s, 0.5s, 1s;
     }
     &:hover > i {
-      background-color: $dark-theme;
+      background-color: hue('dark');
       transition-delay: 0s, 0.5s, 1s;
       width: 30px;
       height: 3px;
@@ -72,7 +66,7 @@
     @mixin duration($n, $d) {
       &:hover > i::#{$n} {
         transition-delay: 1.0s;
-        background-color: $dark-theme;
+        background-color: hue('dark');
         rotate: $d;
       }
     }
@@ -85,9 +79,8 @@
     border: {
       radius: 20px;
       width: 1.5px;
-      color: white;
     }
     a {
-      color: map-get($map: $palette, $key: 'light'); 
+ 
     }
   }

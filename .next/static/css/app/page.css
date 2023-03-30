@@ -49,11 +49,6 @@
   color: #FFFFFF;
 }
 
-:root {
-  --light: $light;
-  --dange: $danger;
-}
-
 .portfolio-btn__link a, .portfolio-btn__button a {
   position: relative;
   color: #FFFFFF;
@@ -69,7 +64,7 @@
 .portfolio-btn__button a::before {
   content: "";
   position: absolute;
-  background-color: #0688e4;
+  background-color: #28A745;
   width: 100%;
   height: 100%;
   transform: scaleX(0);
@@ -88,14 +83,14 @@
 }
 .portfolio-btn__button a i {
   position: relative;
-  background-color: #d9e406;
+  background-color: #DC3545;
   width: 3px;
   height: 30px;
   transition: 0.5s, width 0.5s, height 0.5s;
   transition-delay: 0s, 0.5s, 1s;
 }
 .portfolio-btn__button a:hover > i {
-  background-color: #333;
+  background-color: #343A40;
   transition-delay: 0s, 0.5s, 1s;
   width: 30px;
   height: 3px;
@@ -128,24 +123,19 @@
 }
 .portfolio-btn__button a:hover > i::after {
   transition-delay: 1s;
-  background-color: #333;
+  background-color: #343A40;
   rotate: 45deg;
 }
 .portfolio-btn__button a:hover > i::before {
   transition-delay: 1s;
-  background-color: #333;
+  background-color: #343A40;
   rotate: -45deg;
 }
 
 .portfolio-btn__link a {
   border-radius: 20px;
   border-width: 1.5px;
-  border-color: white;
 }
-.portfolio-btn__link a a {
-  color: #FFFFFF;
-}
-
 .navbar {
   height: 70px;
   display: flex;

@@ -1,0 +1,3 @@
+@function hue($name: 'light') {
+  @return map-get($map: $palette, $key: $name)
+}

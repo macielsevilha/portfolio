@@ -109,7 +109,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -117,7 +117,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -125,7 +125,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
         "name": "Button",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -133,7 +133,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
         "name": "Links",
         "chunks": [
-          "app/page:app/page"
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -167,13 +167,13 @@ self.__RSC_MANIFEST={
   },
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
+    "C:\\github\\portfolio\\src\\app\\page": [
+      "static/css/app/page.css"
+    ],
     "C:\\github\\portfolio\\src\\app\\layout": [
       "static/css/_app-client_src_app_globals_scss.css",
       "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Montserrat-f8d0d9.css",
       "static/css/app/layout.css"
-    ],
-    "C:\\github\\portfolio\\src\\app\\page": [
-      "static/css/app/page.css"
     ]
   },
   "C:\\github\\portfolio\\node_modules\\next\\dist\\client\\components\\app-router.js": {
@@ -384,13 +384,22 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
+  "C:\\github\\portfolio\\src\\app\\page.module.scss": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    }
+  },
   "C:\\github\\portfolio\\src\\app\\sass\\app.scss": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
-        "static/css/app/layout.css",
-        "static/css/app/page.css"
+        "static/css/app/page.css",
+        "static/css/app/layout.css"
       ]
     }
   },
@@ -399,7 +408,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -407,7 +416,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -415,7 +424,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
       "name": "Button",
       "chunks": [
-        "app/page:app/page"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -423,18 +432,9 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
       "name": "Links",
       "chunks": [
-        "app/page:app/page"
+        "app/layout:app/layout"
       ],
       "async": false
-    }
-  },
-  "C:\\github\\portfolio\\src\\app\\page.module.scss": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css"
-      ]
     }
   },
   "C:\\github\\portfolio\\src\\app\\page.jsx": {
