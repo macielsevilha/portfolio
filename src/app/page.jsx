@@ -1,3 +1,5 @@
+"use client";
+
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.scss'
@@ -14,7 +16,7 @@ export default function Home() {
           <h2 className='font-semibold'>Web developer</h2>
           <p>I've always liked programming since I was 18 years old and I can't leave my coffee aside because without it my code won't compile, just kidding the parts to get to know me just look at an icon or to hire me click on the button you can find right below !</p>
           <div className='md:flex justify-center'>
-            <img className='rounded-full mt-5' src="minha.png" alt="" width={400} height={400} />
+            <Image className='rounded-full mt-5' src="/minha.png" alt="" width={400} height={400} />
             <div className='md:flex items-end justify-end text-center mt-5'>
               <Button name="clique aqui"/>
             </div>
