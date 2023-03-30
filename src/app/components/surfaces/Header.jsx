@@ -1,11 +1,10 @@
 import { Navbar } from "../_ui/Navbar";
-
+import "../../sass/app.scss";
 
 export function Header() {
     return (
-        <div>
-            <div className={`
-        flex justify-between items-center max-w-7xl m-auto px-2`}>
+        <div className="portfolio-container">
+            <div className="portfolio-middle">
                 <h2>@Maciel Sevilha</h2>
                 <Navbar />
             </div>

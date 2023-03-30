@@ -1,0 +1,13 @@
+.#{$brand}-container {
+    background-color: map-get($map: $palette, $key: 'dark');
+    display: flex;
+    justify-content: center;
+    .#{$brand}-middle {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width: 100%;
+       max-width: 1200px;
+       padding: 0px 20px;
+    }
+}

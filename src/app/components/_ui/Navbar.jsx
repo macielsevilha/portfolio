@@ -4,10 +4,10 @@ export function Navbar() {
     return (
         <nav className="navbar">
             <ul className="flex my-2">
-                <li>
+                <li className="portfolio-border__none">
                     <Links name="Contato" />
                 </li>
-                <li className="bg-white rounded-full border border-slate-400">
+                <li>
                     <Links name="Projetos" />
                 </li>
             </ul>

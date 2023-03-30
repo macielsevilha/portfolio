@@ -1,4 +1,9 @@
 
+
+:root {
+  --light: $light;
+  --dange: $danger;
+}
 %btn {
   position: relative;
   color: map-get($map: $palette, $key: 'light');
@@ -75,9 +80,14 @@
     @include duration('before', -45deg);
   }
 
-  .#{$brand}-btn__link {
+  .#{$brand}-btn__link a{
     @extend %btn;
+    border: {
+      radius: 20px;
+      width: 1.5px;
+      color: white;
+    }
     a {
-      color: map-get($map: $palette, $key: 'dark'); 
+      color: map-get($map: $palette, $key: 'light'); 
     }
   }
