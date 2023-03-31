@@ -56,22 +56,24 @@
         transition-delay: 1s;
         transform-origin: right;
         transition: 1s;
-        rotate: 0;
       }
     }
 
     @include animaton('after');
     @include animaton('before');
-
-    @mixin duration($n, $d) {
-      &:hover > i::#{$n} {
+   
+      &:hover i::after {
+        transition-delay: 1.5s;
+        background-color: hue('dark');
+        rotate: 45deg;
+      }
+    
+      &:hover i::before {
         transition-delay: 1.0s;
         background-color: hue('dark');
-        rotate: $d;
+        rotate: -45deg;
       }
-    }
-    @include duration('after', 45deg);
-    @include duration('before', -45deg);
+    
   }
 
   .#{$brand}-btn__link a{

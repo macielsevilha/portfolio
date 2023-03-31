@@ -1,54 +1,6 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.bg-primary {
-  background-color: #007BFF;
-}
-
-.text-primary {
-  color: #007BFF;
-}
-
-.bg-secondary {
-  background-color: #6C757D;
-}
-
-.text-secondary {
-  color: #6C757D;
-}
-
-.bg-success {
-  background-color: #28A745;
-}
-
-.text-success {
-  color: #28A745;
-}
-
-.bg-danger {
-  background-color: #DC3545;
-}
-
-.text-danger {
-  color: #DC3545;
-}
-
-.bg-dark {
-  background-color: #343A40;
-}
-
-.text-dark {
-  color: #343A40;
-}
-
-.bg-light {
-  background-color: #FFFFFF;
-}
-
-.text-light {
-  color: #FFFFFF;
-}
-
 .portfolio-btn__link a, .portfolio-btn__button a {
   position: relative;
   color: #FFFFFF;
@@ -106,7 +58,6 @@
   transition-delay: 1s;
   transform-origin: right;
   transition: 1s;
-  rotate: 0;
 }
 .portfolio-btn__button a i::before {
   content: "";
@@ -119,14 +70,13 @@
   transition-delay: 1s;
   transform-origin: right;
   transition: 1s;
-  rotate: 0;
 }
-.portfolio-btn__button a:hover > i::after {
-  transition-delay: 1s;
+.portfolio-btn__button a:hover i::after {
+  transition-delay: 1.5s;
   background-color: #343A40;
   rotate: 45deg;
 }
-.portfolio-btn__button a:hover > i::before {
+.portfolio-btn__button a:hover i::before {
   transition-delay: 1s;
   background-color: #343A40;
   rotate: -45deg;
