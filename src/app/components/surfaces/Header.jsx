@@ -5,7 +5,9 @@ export function Header() {
     return (
         <div className="portfolio-container">
             <div className="portfolio-middle">
-                <h2>@Maciel Sevilha</h2>
+                <a className="portfolio-logo" href="">
+                    <span>@</span>devmacielsevilha_
+                </a>
                 <Navbar />
             </div>
         </div>

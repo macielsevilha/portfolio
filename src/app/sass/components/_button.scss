@@ -1,6 +1,6 @@
 %btn {
   position: relative;
-  color: hue('light');
+  color: hue('dark');
   padding: 7px 20px;
 }
 
@@ -60,14 +60,13 @@
     }
 
     @include animaton('after');
-    @include animaton('before');
-   
       &:hover i::after {
         transition-delay: 1.5s;
         background-color: hue('dark');
         rotate: 45deg;
       }
-    
+
+    @include animaton('before');
       &:hover i::before {
         transition-delay: 1.0s;
         background-color: hue('dark');
@@ -75,7 +74,6 @@
       }
     
   }
-
   .#{$brand}-btn__link a{
     @extend %btn;
     border: {

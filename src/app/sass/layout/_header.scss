@@ -1,5 +1,5 @@
 .#{$brand}-container {
-    background-color: hue('dark');
+    background-color: hue('light');
     display: flex;
     justify-content: center;
     .#{$brand}-middle {
@@ -9,5 +9,16 @@
        width: 100%;
        max-width: 1200px;
        padding: 0px 20px;
+       .#{$brand}-logo {
+        transition: 0.5s;
+        color: hue('dark');
+        font: {
+            size: 1.5em;
+            weight: 600;
+        }
+        span {
+            color: hue('primary');
+        }
+       }
     }
 }

@@ -3,7 +3,7 @@
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 .portfolio-btn__link a, .portfolio-btn__button a {
   position: relative;
-  color: #FFFFFF;
+  color: #343A40;
   padding: 7px 20px;
 }
 
@@ -59,6 +59,11 @@
   transform-origin: right;
   transition: 1s;
 }
+.portfolio-btn__button a:hover i::after {
+  transition-delay: 1.5s;
+  background-color: #343A40;
+  rotate: 45deg;
+}
 .portfolio-btn__button a i::before {
   content: "";
   position: absolute;
@@ -70,11 +75,6 @@
   transition-delay: 1s;
   transform-origin: right;
   transition: 1s;
-}
-.portfolio-btn__button a:hover i::after {
-  transition-delay: 1.5s;
-  background-color: #343A40;
-  rotate: 45deg;
 }
 .portfolio-btn__button a:hover i::before {
   transition-delay: 1s;
@@ -144,7 +144,7 @@
 }
 
 .portfolio-container {
-  background-color: #343A40;
+  background-color: #FFFFFF;
   display: flex;
   justify-content: center;
 }
@@ -155,4 +155,13 @@
   width: 100%;
   max-width: 1200px;
   padding: 0px 20px;
+}
+.portfolio-container .portfolio-middle .portfolio-logo {
+  transition: 0.5s;
+  color: #343A40;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.portfolio-container .portfolio-middle .portfolio-logo span {
+  color: #007BFF;
 }

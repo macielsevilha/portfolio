@@ -5,7 +5,7 @@ import Link from 'next/link';
 import '../../sass/app.scss';
 export function Button(props) {
     return (
-    <div className="portfolio-btn__button bg-dark">
+    <div className="portfolio-btn__button">
             <a  href='' >
                 <i></i><span>{props.name}</span>
             </a>
