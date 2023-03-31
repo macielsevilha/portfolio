@@ -1,8 +1,55 @@
-.navbar {
+.#{$brand}-navbar {
     height: 70px;
     display: flex;
     align-items: center;
-    .#{$brand}-border__none a{
-       border: none;
+
+    .#{$brand}-navbar__icon {
+        span {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: hue('primary');
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+
+            &::after {
+                content: '';
+                width: 30px;
+                height: 3px;
+                background-color: white;
+                position: absolute;
+                transform: translateY(-10px);
+                box-shadow: 0 10px 0 white;
+                transition: 0.5s;
+            }
+
+            &::before {
+                content: '';
+                width: 30px;
+                height: 3px;
+                background-color: white;
+                position: absolute;
+                transform: translateY(10px);
+                transition: 0.5s;
+            }
+        }
+
+        .active::after {
+            transform: rotate(45deg);
+            box-shadow: none;
+        }
+
+        .active::before {
+            transform: rotate(-45deg);
+        }
+    }
+
+    .#{$brand}-border__none a {
+        border: none;
+    }
+
+    ##{$brand}-navbar__ropdown {
+        display: none;
     }
 }

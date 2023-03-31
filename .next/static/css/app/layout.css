@@ -86,13 +86,51 @@
   border-radius: 20px;
   border-width: 1.5px;
 }
-.navbar {
+.portfolio-navbar {
   height: 70px;
   display: flex;
   align-items: center;
 }
-.navbar .portfolio-border__none a {
+.portfolio-navbar .portfolio-navbar__icon span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007BFF;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.portfolio-navbar .portfolio-navbar__icon span::after {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 0 white;
+  transition: 0.5s;
+}
+.portfolio-navbar .portfolio-navbar__icon span::before {
+  content: "";
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  transform: translateY(10px);
+  transition: 0.5s;
+}
+.portfolio-navbar .portfolio-navbar__icon .active::after {
+  transform: rotate(45deg);
+  box-shadow: none;
+}
+.portfolio-navbar .portfolio-navbar__icon .active::before {
+  transform: rotate(-45deg);
+}
+.portfolio-navbar .portfolio-border__none a {
   border: none;
+}
+.portfolio-navbar #portfolio-navbar__ropdown {
+  display: none;
 }
 
 .bg-primary {

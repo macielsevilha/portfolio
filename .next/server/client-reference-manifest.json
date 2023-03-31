@@ -104,40 +104,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/components/_ui/Buttons.jsx": {
-      "": {
-        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "Button": {
-        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
-        "name": "Button",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "Links": {
-        "id": "(sc_client)/./src/app/components/_ui/Buttons.jsx",
-        "name": "Links",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/page.jsx": {
       "": {
         "id": "(sc_client)/./src/app/page.jsx",
@@ -160,6 +126,32 @@
         "name": "default",
         "chunks": [
           "app/page:app/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/components/_ui/Navbar.jsx": {
+      "": {
+        "id": "(sc_client)/./src/app/components/_ui/Navbar.jsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./src/app/components/_ui/Navbar.jsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "Navbar": {
+        "id": "(sc_client)/./src/app/components/_ui/Navbar.jsx",
+        "name": "Navbar",
+        "chunks": [
+          "app/layout:app/layout"
         ],
         "async": false
       }
@@ -403,40 +395,6 @@
       ]
     }
   },
-  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Buttons.jsx": {
-    "": {
-      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "Button": {
-      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
-      "name": "Button",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "Links": {
-      "id": "(app-client)/./src/app/components/_ui/Buttons.jsx",
-      "name": "Links",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
   "C:\\github\\portfolio\\src\\app\\page.jsx": {
     "": {
       "id": "(app-client)/./src/app/page.jsx",
@@ -459,6 +417,32 @@
       "name": "default",
       "chunks": [
         "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "C:\\github\\portfolio\\src\\app\\components\\_ui\\Navbar.jsx": {
+    "": {
+      "id": "(app-client)/./src/app/components/_ui/Navbar.jsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/app/components/_ui/Navbar.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "Navbar": {
+      "id": "(app-client)/./src/app/components/_ui/Navbar.jsx",
+      "name": "Navbar",
+      "chunks": [
+        "app/layout:app/layout"
       ],
       "async": false
     }
