@@ -1,13 +1,10 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.portfolio-btn__link a, .portfolio-btn__button a {
+.portfolio-btn__button a {
   position: relative;
   color: #343A40;
   padding: 7px 20px;
-}
-
-.portfolio-btn__button a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,10 +79,6 @@
   rotate: -45deg;
 }
 
-.portfolio-btn__link a {
-  border-radius: 20px;
-  border-width: 1.5px;
-}
 .portfolio-navbar {
   height: 70px;
   display: flex;
@@ -103,7 +96,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #343A40;
+    background-color: #292d32;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -129,19 +122,21 @@
     width: 30px;
     height: 3px;
   }
-  .portfolio-navbar .portfolio-navbar__icon .active::after {
+  .portfolio-navbar .portfolio-navbar__icon .portfolio-navbar__active::after {
     background-color: #DC3545;
     transform: rotate(45deg);
     box-shadow: none;
   }
-  .portfolio-navbar .portfolio-navbar__icon .active::before {
+  .portfolio-navbar .portfolio-navbar__icon .portfolio-navbar__active::before {
     background-color: #DC3545;
     transform: rotate(-45deg);
   }
+  .portfolio-navbar .portfolio-navbar__icon .portfolio-navbar__active ul {
+    background-color: red;
+  }
   .portfolio-navbar #portfolio-navbar__ropdown {
     position: absolute;
-    background-color: #343A40;
-    display: block;
+    background-color: #3f474e;
     right: 0;
     top: 50px;
   }
@@ -154,7 +149,7 @@
     color: #FFFFFF;
   }
   .portfolio-navbar #portfolio-navbar__ropdown .portfolio-btn__link:hover {
-    background-color: #DC3545;
+    background-color: #e04b59;
   }
 }
 
