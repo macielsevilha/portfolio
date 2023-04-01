@@ -163,8 +163,8 @@ self.__RSC_MANIFEST={
       "static/css/app/page.css"
     ],
     "C:\\github\\portfolio\\src\\app\\layout": [
-      "static/css/_app-client_src_app_globals_scss.css",
       "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Montserrat-f8d0d9.css",
+      "static/css/_app-client_src_app_globals_scss.css",
       "static/css/app/layout.css"
     ]
   },
@@ -447,21 +447,21 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Montserrat-f8d0d9.css"
-      ]
-    }
-  },
   "C:\\github\\portfolio\\src\\app\\globals.scss": {
     "default": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/_app-client_src_app_globals_scss.css"
+      ]
+    }
+  },
+  "C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/_app-client_node_modules_next_font_google_target_css_path_src_app_layout_js_import_Montserrat-f8d0d9.css"
       ]
     }
   }

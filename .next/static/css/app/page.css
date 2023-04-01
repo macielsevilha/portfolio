@@ -90,6 +90,7 @@
   height: 70px;
   display: flex;
   align-items: center;
+  position: relative;
 }
 .portfolio-navbar .portfolio-navbar__icon span {
   display: flex;
@@ -99,6 +100,7 @@
   width: 50px;
   height: 50px;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
 }
 .portfolio-navbar .portfolio-navbar__icon span::after {
   content: "";
@@ -107,7 +109,7 @@
   background-color: white;
   position: absolute;
   transform: translateY(-10px);
-  box-shadow: 0 10px 0 white;
+  box-shadow: 0 10px white;
   transition: 0.5s;
 }
 .portfolio-navbar .portfolio-navbar__icon span::before {
@@ -117,6 +119,7 @@
   background-color: white;
   position: absolute;
   transform: translateY(10px);
+  box-shadow: 0 0px white;
   transition: 0.5s;
 }
 .portfolio-navbar .portfolio-navbar__icon .active::after {
@@ -129,8 +132,29 @@
 .portfolio-navbar .portfolio-border__none a {
   border: none;
 }
-.portfolio-navbar #portfolio-navbar__ropdown {
-  display: none;
+@media (max-width: 700px) {
+  .portfolio-navbar .portfolio-navbar {
+    display: block;
+  }
+  .portfolio-navbar #portfolio-navbar__ropdown {
+    position: absolute;
+    background-color: #343A40;
+    right: 0;
+    top: 50px;
+    display: block;
+    padding: 20px;
+  }
+  .portfolio-navbar #portfolio-navbar__ropdown li:nth-child(1) {
+    border-bottom: 1.5px solid rgb(100, 100, 100);
+  }
+  .portfolio-navbar .portfolio-btn__link {
+    border: none;
+    padding: 10px;
+  }
+  .portfolio-navbar .portfolio-btn__link a {
+    border: none;
+    color: #FFFFFF;
+  }
 }
 
 .bg-primary {

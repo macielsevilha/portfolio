@@ -2,8 +2,9 @@
     height: 70px;
     display: flex;
     align-items: center;
-
+    position: relative;
     .#{$brand}-navbar__icon {
+        
         span {
             display: flex;
             justify-content: center;
@@ -12,27 +13,23 @@
             width: 50px;
             height: 50px;
             cursor: pointer;
+            transition: 0.5s ease-in-out;
 
-            &::after {
-                content: '';
-                width: 30px;
-                height: 3px;
-                background-color: white;
-                position: absolute;
-                transform: translateY(-10px);
-                box-shadow: 0 10px 0 white;
-                transition: 0.5s;
+            @mixin icon($v, $e, $b) {
+                &::#{$v} {
+                    content: '';
+                    width: 30px; 
+                    height: 3px;
+                    background-color: white;
+                    position: absolute;
+                    transform: translateY($e);
+                    box-shadow: 0 $b white;
+                    transition: 0.5s;
+                }
             }
 
-            &::before {
-                content: '';
-                width: 30px;
-                height: 3px;
-                background-color: white;
-                position: absolute;
-                transform: translateY(10px);
-                transition: 0.5s;
-            }
+            @include icon('after', -10px, 10px);
+            @include icon('before', 10px, 00px);
         }
 
         .active::after {
@@ -49,7 +46,37 @@
         border: none;
     }
 
-    ##{$brand}-navbar__ropdown {
-        display: none;
+
+
+    @media (max-width: 700px) {
+        .#{$brand}-navbar {
+            display: block;
+          
+        }
+        ##{$brand}-navbar__ropdown {
+            position: absolute;
+            background-color: hue('dark');
+
+            right: 0;
+            top: 50px;
+            
+            display: block;
+            padding: 20px;
+            li:nth-child(1) {
+                border-bottom: 1.5px solid rgb(100, 100, 100);
+            }
+         }
+
+        
+         .#{$brand}-btn__link  {
+            border: none;
+           padding: 10px;   
+          
+          a {
+            border: none;
+            color: hue('light'); 
+         }         
+         }
+
     }
 }
