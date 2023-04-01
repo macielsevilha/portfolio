@@ -3,80 +3,73 @@
     display: flex;
     align-items: center;
     position: relative;
-    .#{$brand}-navbar__icon {
-        
-        span {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: hue('primary');
-            width: 50px;
-            height: 50px;
-            cursor: pointer;
-            transition: 0.5s ease-in-out;
-
-            @mixin icon($v, $e, $b) {
-                &::#{$v} {
-                    content: '';
-                    width: 30px; 
-                    height: 3px;
-                    background-color: white;
-                    position: absolute;
-                    transform: translateY($e);
-                    box-shadow: 0 $b white;
-                    transition: 0.5s;
-                }
-            }
-
-            @include icon('after', -10px, 10px);
-            @include icon('before', 10px, 00px);
-        }
-
-        .active::after {
-            transform: rotate(45deg);
-            box-shadow: none;
-        }
-
-        .active::before {
-            transform: rotate(-45deg);
-        }
-    }
 
     .#{$brand}-border__none a {
         border: none;
     }
 
-
-
     @media (max-width: 700px) {
-        .#{$brand}-navbar {
+        .#{$brand}-navbar__icon {
             display: block;
-          
+
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: hue('dark');
+                width: 50px;
+                height: 50px;
+                cursor: pointer;
+                transition: 0.5s ease-in-out;
+
+                @mixin icon($pseudo, $c, $t, $b, ) {
+                    &::#{$pseudo} {
+                        content: '';
+                        position: absolute;
+                        background-color: hue($c);
+                        transform: translateY($t);
+                        box-shadow: 0 $b hue($c);
+                        transition: 0.5s;
+                        width: 30px;
+                        height: 3px;
+                    }
+                }
+
+                @include icon('after', 'light', -10px, 10px);
+                @include icon('before', 'light', 10px, 00px);
+            }
+
+            .active {
+                &::after {
+                    background-color: hue('danger');
+                    transform: rotate(45deg);
+                    box-shadow: none;
+                }
+
+                &::before {
+                    background-color: hue('danger');
+                    transform: rotate(-45deg);
+                }
+            }
         }
+
         ##{$brand}-navbar__ropdown {
             position: absolute;
             background-color: hue('dark');
-
+            display: block;
             right: 0;
             top: 50px;
-            
-            display: block;
-            padding: 20px;
-            li:nth-child(1) {
-                border-bottom: 1.5px solid rgb(100, 100, 100);
+            .#{$brand}-btn__link {
+                border: none;
+                padding: 15px;
+                a {
+                    border: none;
+                    color: hue('light');
+                }
+                &:hover {
+                    background-color: hue('danger');
+                }
             }
-         }
-
-        
-         .#{$brand}-btn__link  {
-            border: none;
-           padding: 10px;   
-          
-          a {
-            border: none;
-            color: hue('light'); 
-         }         
-         }
-
+        }
     }
 }

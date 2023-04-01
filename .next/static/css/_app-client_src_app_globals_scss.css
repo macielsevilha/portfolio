@@ -496,6 +496,9 @@ video {
 .flex {
   display: flex;
 }
+.hidden {
+  display: none;
+}
 .w-11\/12 {
   width: 91.666667%;
 }

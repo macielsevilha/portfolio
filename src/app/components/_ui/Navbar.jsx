@@ -8,7 +8,7 @@ export function Navbar() {
     
     return (
         <nav className="portfolio-navbar">
-          <div className="portfolio-navbar__icon" onClick={toggle}>
+          <div className="portfolio-navbar__icon hidden" onClick={toggle}>
             <span></span>
           </div>
             <ul className="flex my-2" id="portfolio-navbar__ropdown">
