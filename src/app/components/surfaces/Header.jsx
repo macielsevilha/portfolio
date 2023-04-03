@@ -3,13 +3,13 @@ import "../../sass/app.scss";
 
 export function Header() {
     return (
-        <div className="portfolio-container">
-            <div className="portfolio-middle">
-                <a className="portfolio-logo" href="">
+        <header className="portfolio-header__container">
+            <div className="portfolio-header__middle">
+                <a className="portfolio-header__logo" href="">
                     <span>@</span>devmacielsevilha_
                 </a>
                 <Navbar />
             </div>
-        </div>
+        </header>
     )
 }

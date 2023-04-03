@@ -1,10 +1,13 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.portfolio-btn__button a {
+.portfolio-navbar-btn__link a, .portfolio-btn__button a {
   position: relative;
   color: #343A40;
   padding: 7px 20px;
+}
+
+.portfolio-btn__button a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,17 +88,21 @@
   align-items: center;
   position: relative;
 }
-.portfolio-navbar .portfolio-border__none a {
+.portfolio-navbar-btn__link a {
+  border-radius: 20px;
+  border-width: 1.5px;
+}
+.portfolio-navbar-item--none a {
   border: none;
 }
 @media (max-width: 700px) {
   .portfolio-navbar ul {
     display: none;
   }
-  .portfolio-navbar .portfolio-navbar__icon {
+  .portfolio-navbar__icon {
     display: block;
   }
-  .portfolio-navbar .portfolio-navbar__icon span {
+  .portfolio-navbar__icon button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,7 +112,7 @@
     cursor: pointer;
     transition: 0.5s ease-in-out;
   }
-  .portfolio-navbar .portfolio-navbar__icon span::after {
+  .portfolio-navbar__icon button::after {
     content: "";
     position: absolute;
     background-color: #FFFFFF;
@@ -115,7 +122,7 @@
     width: 30px;
     height: 3px;
   }
-  .portfolio-navbar .portfolio-navbar__icon span::before {
+  .portfolio-navbar__icon button::before {
     content: "";
     position: absolute;
     background-color: #FFFFFF;
@@ -125,34 +132,31 @@
     width: 30px;
     height: 3px;
   }
-  .portfolio-navbar .portfolio-navbar__icon .portfolio-navbar__active::after {
+  .portfolio-navbar__icon .portfolio-navbar-toggler--ropdown::after {
     background-color: #DC3545;
     transform: rotate(45deg);
     box-shadow: none;
   }
-  .portfolio-navbar .portfolio-navbar__icon .portfolio-navbar__active::before {
+  .portfolio-navbar__icon .portfolio-navbar-toggler--ropdown::before {
     background-color: #DC3545;
     transform: rotate(-45deg);
   }
-  .portfolio-navbar .portfolio-navbar__icon .portfolio-navbar__active ul {
-    background-color: red;
-  }
-  .portfolio-navbar #portfolio-navbar__ropdown {
+  .portfolio-navbar #portfolio-navbar-toggler--active {
     position: absolute;
     background-color: #3f474e;
     display: block;
     right: 0;
     top: 50px;
   }
-  .portfolio-navbar #portfolio-navbar__ropdown .portfolio-btn__link {
+  .portfolio-navbar #portfolio-navbar-toggler--active .portfolio-btn__link {
     border: none;
     padding: 15px;
   }
-  .portfolio-navbar #portfolio-navbar__ropdown .portfolio-btn__link a {
+  .portfolio-navbar #portfolio-navbar-toggler--active .portfolio-btn__link a {
     border: none;
     color: #FFFFFF;
   }
-  .portfolio-navbar #portfolio-navbar__ropdown .portfolio-btn__link:hover {
+  .portfolio-navbar #portfolio-navbar-toggler--active .portfolio-btn__link:hover {
     background-color: #e04b59;
   }
 }
@@ -205,12 +209,12 @@
   color: #FFFFFF;
 }
 
-.portfolio-container {
+.portfolio-header__container {
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
 }
-.portfolio-container .portfolio-middle {
+.portfolio-header__container .portfolio-header__middle {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -218,12 +222,12 @@
   max-width: 1200px;
   padding: 0px 20px;
 }
-.portfolio-container .portfolio-middle .portfolio-logo {
+.portfolio-header__container .portfolio-header__middle .portfolio-header__logo {
   transition: 0.5s;
   color: #343A40;
   font-size: 1.5em;
   font-weight: 600;
 }
-.portfolio-container .portfolio-middle .portfolio-logo span {
+.portfolio-header__container .portfolio-header__middle .portfolio-header__logo span {
   color: #007BFF;
 }

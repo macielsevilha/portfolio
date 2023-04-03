@@ -4,7 +4,15 @@
     align-items: center;
     position: relative;
 
-    .#{$brand}-border__none a {
+    &-btn__link a {
+        @extend %btn;
+        border: {
+            radius: 20px;
+            width: 1.5px;
+        }
+    }
+
+    &-item--none a {
         border: none;
     }
 
@@ -12,10 +20,9 @@
         ul {
             display: none;
         }
-        .#{$brand}-navbar__icon {
+        &__icon {
             display: block;
-
-            span {
+            button {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -24,7 +31,6 @@
                 height: 50px;
                 cursor: pointer;
                 transition: 0.5s ease-in-out;
-
                 @mixin icon($pseudo, $c, $t, $b, ) {
                     &::#{$pseudo} {
                         content: '';
@@ -37,45 +43,38 @@
                         height: 3px;
                     }
                 }
-
                 @include icon('after', 'light', -10px, 10px);
                 @include icon('before', 'light', 10px, 00px);
             }
-
-            .#{$brand}-navbar__active {
+            .#{$brand}-navbar-toggler--ropdown {
                 &::after {
                     background-color: hue('danger');
                     transform: rotate(45deg);
                     box-shadow: none;
                 }
-
                 &::before {
                     background-color: hue('danger');
                     transform: rotate(-45deg);
                 }
-                ul {
-                    background-color: red;
-                }
             }
         }
 
-        // .#{$brand}-navbar__disabled {
-        //     display: block !important;
-        // }
-
-        ##{$brand}-navbar__ropdown {
+        ##{$brand}-navbar-toggler--active {
             position: absolute;
             background-color: change-hue('dark', 'lighten', 5);
             display: block;
             right: 0;
             top: 50px;
+
             .#{$brand}-btn__link {
                 border: none;
                 padding: 15px;
+
                 a {
                     border: none;
                     color: hue('light');
                 }
+
                 &:hover {
                     background-color: change-hue('danger', 'lighten', 5);
                 }
