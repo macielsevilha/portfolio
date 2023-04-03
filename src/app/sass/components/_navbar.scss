@@ -9,6 +9,9 @@
     }
 
     @media (max-width: 700px) {
+        ul {
+            display: none;
+        }
         .#{$brand}-navbar__icon {
             display: block;
 
@@ -63,7 +66,7 @@
         ##{$brand}-navbar__ropdown {
             position: absolute;
             background-color: change-hue('dark', 'lighten', 5);
-         
+            display: block;
             right: 0;
             top: 50px;
             .#{$brand}-btn__link {

@@ -89,6 +89,9 @@
   border: none;
 }
 @media (max-width: 700px) {
+  .portfolio-navbar ul {
+    display: none;
+  }
   .portfolio-navbar .portfolio-navbar__icon {
     display: block;
   }
@@ -137,6 +140,7 @@
   .portfolio-navbar #portfolio-navbar__ropdown {
     position: absolute;
     background-color: #3f474e;
+    display: block;
     right: 0;
     top: 50px;
   }
