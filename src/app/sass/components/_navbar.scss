@@ -3,19 +3,16 @@
     display: flex;
     align-items: center;
     position: relative;
-
-    &-btn__link a {
+    &__link a {
         @extend %btn;
         border: {
             radius: 20px;
-            width: 1.5px;
+            width: 2.0px;
         }
     }
-
     &-item--none a {
         border: none;
     }
-
     @media (max-width: 700px) {
         ul {
             display: none;
@@ -46,7 +43,9 @@
                 @include icon('after', 'light', -10px, 10px);
                 @include icon('before', 'light', 10px, 00px);
             }
-            .#{$brand}-navbar-toggler--ropdown {
+        }
+        .#{$brand}-navbar-toggler {
+            &--ropdown {
                 &::after {
                     background-color: hue('danger');
                     transform: rotate(45deg);
@@ -57,28 +56,33 @@
                     transform: rotate(-45deg);
                 }
             }
-        }
-
-        ##{$brand}-navbar-toggler--active {
-            position: absolute;
-            background-color: change-hue('dark', 'lighten', 5);
-            display: block;
-            right: 0;
-            top: 50px;
-
-            .#{$brand}-btn__link {
-                border: none;
-                padding: 15px;
-
-                a {
-                    border: none;
-                    color: hue('light');
-                }
-
-                &:hover {
-                    background-color: change-hue('danger', 'lighten', 5);
-                }
+            &--active {
+                position: absolute;
+                background-color: change-hue('dark', 'lighten', 5);
+                display: block;
+                right: 0;
+                top: 50px;
             }
         }
+        &__link {
+            border: none;
+            padding: 15px;
+            a {
+                border: none;
+                color: hue('light');
+            }
+            &:hover {
+                background-color: change-hue('danger', 'lighten', 5);
+            }
+        }
+    }
+
+}
+.teste {
+    color: wheat;
+    display: flex;
+    align-items: center;
+    &:hover {
+        background-color: red;
     }
 }
