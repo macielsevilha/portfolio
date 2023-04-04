@@ -1,8 +1,8 @@
 "use client"
 
+import Link from "next/link";
 import { useState } from "react";
-import { Links } from "./Buttons";
-import {BsChatDotsFill} from "react-icons/bs"
+import {BsChatDotsFill, BsFillPersonLinesFill} from "react-icons/bs"
 export function Navbar() {
     const [id, setId] = useState()
 
@@ -16,14 +16,14 @@ export function Navbar() {
             <div className="portfolio-navbar__icon" onClick={toggle}>
                 <button></button>
             </div>
-            <ul className={`flex my-[10px] ${id?.target.className.replace('ropdown', 'active')}`} >
-                <li className="portfolio-navbar-item--none teste">
-                    <BsChatDotsFill color="white" />
-                    <Links name="Contato" />
+            <ul className={`portfolio-navbar__items ${id?.target.className.replace('ropdown', 'active')}`} >
+                <li>
+                    <i><BsChatDotsFill /></i>
+                    <Link href={''}>Contato</Link>
                 </li>
-                <li className="teste">
-                    <BsChatDotsFill />
-                    <Links name="Projetos" />
+                <li className="portfolio-navbar--item">
+                    <i><BsFillPersonLinesFill /></i>
+                    <Link href={''}>Projeto</Link>
                 </li>
             </ul>
         </nav>

@@ -15,7 +15,6 @@ self.__RSC_CSS_MANIFEST={
   "C:\\github\\portfolio\\src\\app\\layout.js": [
     "C:\\github\\portfolio\\node_modules\\@next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Montserrat\",\"arguments\":[{\"weight\":[\"400\",\"700\"],\"subsets\":[\"latin\"],\"variable\":[\"--font-montserrat\"]}],\"variableName\":\"montserrat\"}",
     "C:\\github\\portfolio\\src\\app\\sass\\app.scss",
-    "C:\\github\\portfolio\\src\\app\\sass\\app.scss",
     "C:\\github\\portfolio\\src\\app\\globals.scss"
   ]
 }

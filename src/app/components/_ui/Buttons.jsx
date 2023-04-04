@@ -12,14 +12,3 @@ export function Button(props) {
         </div>
     )
 }
-
-export function Links(props) {
-    return (
-        <div className='portfolio-navbar__link'>
-            
-            <Link href="">{props.name}</Link>
-        </div>
-    )
-}
-
-

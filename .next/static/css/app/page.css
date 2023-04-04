@@ -1,13 +1,10 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.portfolio-navbar__link a, .portfolio-btn__button a {
+.portfolio-btn__button a {
   position: relative;
   color: #343A40;
   padding: 7px 20px;
-}
-
-.portfolio-btn__button a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,16 +85,35 @@
   align-items: center;
   position: relative;
 }
-.portfolio-navbar__link a {
-  border-radius: 20px;
-  border-width: 2px;
+.portfolio-navbar__items li {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 20px;
+  gap: 10px;
 }
-.portfolio-navbar-item--none a {
-  border: none;
+.portfolio-navbar__items li i {
+  display: none;
+  color: #FFFFFF;
+}
+.portfolio-navbar__items li a {
+  color: #343A40;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.portfolio-navbar--item {
+  border-width: 2.5px;
+  border-color: #b2bac1;
+  border-radius: 50px;
+}
+.portfolio-navbar--item:hover {
+  background-color: #f9f9fa;
 }
 @media (max-width: 700px) {
-  .portfolio-navbar ul {
-    display: none;
+  .portfolio-navbar--item {
+    border: none;
+  }
+  .portfolio-navbar--item:hover {
+    background-color: transparent;
   }
   .portfolio-navbar__icon {
     display: block;
@@ -132,6 +148,9 @@
     width: 30px;
     height: 3px;
   }
+  .portfolio-navbar .portfolio-navbar-toggler {
+    transition: 0.5s ease-in-out;
+  }
   .portfolio-navbar .portfolio-navbar-toggler--ropdown::after {
     background-color: #DC3545;
     transform: rotate(45deg);
@@ -146,28 +165,18 @@
     background-color: #3f474e;
     display: block;
     right: 0;
-    top: 50px;
+    top: 60px;
+    transition: 0.5s ease-in-out;
   }
-  .portfolio-navbar__link {
-    border: none;
-    padding: 15px;
+  .portfolio-navbar ul {
+    display: none;
   }
-  .portfolio-navbar__link a {
-    border: none;
+  .portfolio-navbar ul i {
+    display: block;
+  }
+  .portfolio-navbar ul a {
     color: #FFFFFF;
   }
-  .portfolio-navbar__link:hover {
-    background-color: #e04b59;
-  }
-}
-
-.teste {
-  color: wheat;
-  display: flex;
-  align-items: center;
-}
-.teste:hover {
-  background-color: red;
 }
 
 .bg-primary {

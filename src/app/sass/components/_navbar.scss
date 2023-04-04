@@ -3,23 +3,54 @@
     display: flex;
     align-items: center;
     position: relative;
-    &__link a {
-        @extend %btn;
+
+    &__items {
+        li {
+            display: inline-flex;
+            align-items: center;
+            padding: 7px 20px;
+            gap: 10px;
+
+            i {
+                display: none;
+                color: hue('light');
+            }
+
+            a {
+                color: hue('dark');
+                font-weight: 500;
+                text-transform: uppercase;
+
+            }
+        }
+    }
+
+    &--item {
         border: {
-            radius: 20px;
-            width: 2.0px;
+            width: 2.5px;
+            color: change-hue('dark', 'lighten', 50);
+            radius: 50px;
+        }
+
+        &:hover {
+            background-color: change-hue('dark', 'lighten', 75);
         }
     }
-    &-item--none a {
-        border: none;
-    }
+
     @media (max-width: 700px) {
-        ul {
-            display: none;
+        &--item {
+            border: none;
+
+            &:hover {
+                background-color: transparent;
+            }
         }
+
         &__icon {
             display: block;
+
             button {
+
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -28,6 +59,7 @@
                 height: 50px;
                 cursor: pointer;
                 transition: 0.5s ease-in-out;
+
                 @mixin icon($pseudo, $c, $t, $b, ) {
                     &::#{$pseudo} {
                         content: '';
@@ -40,49 +72,47 @@
                         height: 3px;
                     }
                 }
+
                 @include icon('after', 'light', -10px, 10px);
                 @include icon('before', 'light', 10px, 00px);
             }
         }
+
         .#{$brand}-navbar-toggler {
+            transition: 0.5s ease-in-out;
             &--ropdown {
                 &::after {
                     background-color: hue('danger');
                     transform: rotate(45deg);
                     box-shadow: none;
                 }
+
                 &::before {
                     background-color: hue('danger');
                     transform: rotate(-45deg);
                 }
             }
+
             &--active {
                 position: absolute;
                 background-color: change-hue('dark', 'lighten', 5);
                 display: block;
                 right: 0;
-                top: 50px;
+                top: 60px;
+                transition: 0.5s ease-in-out;
             }
         }
-        &__link {
-            border: none;
-            padding: 15px;
+
+        ul {
+            display: none;
+
+            i {
+                display: block;
+            }
+
             a {
-                border: none;
                 color: hue('light');
             }
-            &:hover {
-                background-color: change-hue('danger', 'lighten', 5);
-            }
         }
-    }
-
-}
-.teste {
-    color: wheat;
-    display: flex;
-    align-items: center;
-    &:hover {
-        background-color: red;
     }
 }
