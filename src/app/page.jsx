@@ -15,12 +15,12 @@ export default function Home() {
           <h1 className='font-black text-danger portfolio-title--xl'>I call Maciel</h1>
           <h2 className='portfolio-title--lg'>Web developer</h2>
           <p className='portfolio-title--bs'>I've always liked programming since I was 18 years old and I can't leave my coffee aside because without it my code won't compile, just kidding the parts to get to know me just look at an icon or to hire me click on the button you can find right below !</p>
-          <div className='md:flex justify-center'>
-            <Image className='rounded-full mt-5' src="/minha.png" alt="" width={400} height={400} />
-            <div className='md:flex items-end justify-end text-center mt-5'>
+          <div className='flex justify-center'>
+            <Image className='rounded-full mt-5 md:w-[350px] xs:w-[300px]' src="/minha.png" alt="" width={200} height={200} />
+          </div>
+          <div className='md:flex items-end justify-end text-center mt-5'>
               <Button name="clique aqui"/>
             </div>
-          </div>
         </div>
         
       </div>
