@@ -517,6 +517,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.p-5 {
+  padding: 1.25rem;
+}
+.p-10 {
+  padding: 2.5rem;
+}
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -530,9 +536,6 @@ video {
 }
 .font-black {
   font-weight: 900;
-}
-.font-semibold {
-  font-weight: 600;
 }
 /* Color Theme Swatches in Hex */
 :root {
