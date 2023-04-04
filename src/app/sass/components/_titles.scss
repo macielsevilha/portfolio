@@ -1,0 +1,21 @@
+h1 {
+    color: hue('danger');
+}
+h2 {
+    font-weight: 700 !important;
+}
+h3 {
+    font-weight: 600 !important;
+}
+h4 {
+    font-weight: 500 !important;
+}
+p {
+    color: hue('secondary');
+}
+
+@each $name, $size in $titles {
+  .#{$brand}-title--#{$name} {
+    font-size: $size;
+  }
+}

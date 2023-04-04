@@ -1,8 +1,6 @@
 "use client";
 
-import Link from 'next/link';
 import '../../sass/app.scss';
-
 export function Button(props) {
     return (
         <div className="portfolio-btn__button">

@@ -179,52 +179,44 @@
   }
 }
 
-.bg-primary {
-  background-color: #007BFF;
-}
-
-.text-primary {
-  color: #007BFF;
-}
-
-.bg-secondary {
-  background-color: #6C757D;
-}
-
-.text-secondary {
-  color: #6C757D;
-}
-
-.bg-success {
-  background-color: #28A745;
-}
-
-.text-success {
-  color: #28A745;
-}
-
-.bg-danger {
-  background-color: #DC3545;
-}
-
-.text-danger {
+h1 {
   color: #DC3545;
 }
 
-.bg-dark {
-  background-color: #343A40;
+h2 {
+  font-weight: 700 !important;
 }
 
-.text-dark {
-  color: #343A40;
+h3 {
+  font-weight: 600 !important;
 }
 
-.bg-light {
-  background-color: #FFFFFF;
+h4 {
+  font-weight: 500 !important;
 }
 
-.text-light {
-  color: #FFFFFF;
+p {
+  color: #6C757D;
+}
+
+.portfolio-title--xs {
+  font-size: 14px;
+}
+
+.portfolio-title--bs {
+  font-size: 16px;
+}
+
+.portfolio-title--md {
+  font-size: 20px;
+}
+
+.portfolio-title--lg {
+  font-size: 24px;
+}
+
+.portfolio-title--xl {
+  font-size: 32px;
 }
 
 .portfolio-header__container {

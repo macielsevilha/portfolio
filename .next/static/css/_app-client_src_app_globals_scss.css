@@ -477,10 +477,6 @@ video {
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
-.my-\[10px\] {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 .mb-5 {
   margin-bottom: 1.25rem;
 }
