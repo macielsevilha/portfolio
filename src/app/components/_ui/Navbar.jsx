@@ -19,11 +19,15 @@ export function Navbar() {
             <ul className={`portfolio-navbar__items ${id?.target.className.replace('ropdown', 'active')}`} >
                 <li>
                     <i><BsChatDotsFill /></i>
+                    <Link href={''}>Currículo</Link>
+                </li>
+                <li>
+                    <i><BsChatDotsFill /></i>
                     <Link href={''}>Contato</Link>
                 </li>
                 <li className="portfolio-navbar--item">
                     <i><BsFillPersonLinesFill /></i>
-                    <Link href={''}>Projeto</Link>
+                    <Link href={''}>Projetos</Link>
                 </li>
             </ul>
         </nav>
