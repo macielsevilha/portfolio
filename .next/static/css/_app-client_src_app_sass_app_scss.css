@@ -188,6 +188,7 @@
 
 h1 {
   color: #DC3545;
+  font-weight: 800 !important;
 }
 
 h2 {
@@ -195,10 +196,12 @@ h2 {
 }
 
 h3 {
+  color: #343A40;
   font-weight: 600 !important;
 }
 
 h4 {
+  color: #343A40;
   font-weight: 500 !important;
 }
 
@@ -247,4 +250,18 @@ p {
 }
 .portfolio-header__logo span {
   color: #007BFF;
+}
+
+.portfolio-skill--icon {
+  position: relative;
+  font-size: 25px;
+}
+.portfolio-skill--icon span {
+  background-color: #6C757D;
+  width: 1.5px;
+  position: absolute;
+  height: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: -1;
 }
