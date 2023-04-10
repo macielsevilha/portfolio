@@ -16,9 +16,9 @@ export default function Home() {
     <main className={styles.main}>
        <div className='xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12'>
         <div className='py-10'>
-          <H1 name="I call Maciel" />
-          <H2 name="web developer" />
-          <p className='portfolio-title--bs'>I've always liked programming since I was 18 years old and I can't leave my coffee aside because without it my code won't compile, just kidding the parts to get to know me just look at an icon or to hire me click on the button you can find right below !"</p>
+          <H1 name="Olá me chamo Maciel" />
+          <H2 name="desenvolvedor web" />
+          <p className='portfolio-title--bs'>teve inicio há mais de 3 anos estundando programação web em ambas parte back-end e front-end, comecou seu primeiro projeto profissional em 2022 como desenvolvedor Freelencer, atualmente tenho 20 anos de idade.</p>
           <div className='flex justify-center'>
             <Image className='rounded-full mt-5 md:w-[350px] xs:w-[300px]' src="/minha.png" alt="" width={250} height={250} />
           </div>
@@ -30,8 +30,8 @@ export default function Home() {
        <h2 className='text-center mt-10 mb-5 portfolio-title--lg'>My skill</h2>
         <div className="md:grid grid-cols-3 gap-4">
           <div className=''>
-            <H3 name="Técnico em informática" />
-            <span>2018 - 2022</span>
+            <H3 name="CETEP" />
+            <span className='portfolio-title--xs'>fevereiro 2020 - dezembro 2022</span>
           </div>
           <div className='flex col-span-2'>
             <div className='mr-10 portfolio-skill--icon'>
@@ -39,15 +39,15 @@ export default function Home() {
               <BsFillMortarboardFill/>
             </div>
            <div className='mb-5'>
-           <H4 name="Escola CETEP" />
-            <p className='portfolio-title--xs'>finalizei o curso de técnico em informática na escola Cetep, localizado em Santa Maria Da Vitória, principal conteúdo manutencação de computador e redes, estudou banco de dados e progamação web básico.</p>
+           <H4 name="Técnico em informática" />
+            <p className='portfolio-title--xs'>Localizado em Santa Maria Da Vitória, realizei ás principais atividade criação de site HTML, CSS, PHP, MYSQL e manutenção de computador.</p>
            </div>
           </div>
         </div>
         <div className="md:grid grid-cols-3 gap-4">
           <div className=''>
-            <h3 className='portfolio-title--md'>Trabalhou como Freelencer</h3>
-            <span>2018 - 2022</span>
+            <h3 className='portfolio-title--md'>Developer</h3>
+            <span className='portfolio-title--xs'>2020 - presente</span>
           </div>
           <div className='flex col-span-2'>
             <div className='mr-10 portfolio-skill--icon'>
@@ -62,6 +62,7 @@ export default function Home() {
         </div>
         <hr />
        </div>
+      
     </main>
   )
 }

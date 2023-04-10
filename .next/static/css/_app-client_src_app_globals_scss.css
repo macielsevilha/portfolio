@@ -520,9 +520,6 @@ video {
 .text-center {
   text-align: center;
 }
-.font-black {
-  font-weight: 900;
-}
 /* Color Theme Swatches in Hex */
 :root {
   --portfolio-color-1: #F2F2F2;
