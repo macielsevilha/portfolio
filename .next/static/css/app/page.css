@@ -1,10 +1,10 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-.portfolio-btn__button a {
+.portfolio-curriculum button, .portfolio-btn__button a {
   position: relative;
   color: #343A40;
-  padding: 7px 20px;
+  padding: 10px 20px;
 }
 
 .portfolio-btn__button {
@@ -271,6 +271,27 @@ p {
   padding: 10px;
   border-radius: 50%;
   font-size: 20px;
+}
+
+.portfolio-curriculum {
+  margin-top: 5rem;
+  text-align: center;
+}
+.portfolio-curriculum button {
+  background-color: #DC3545;
+  color: #FFFFFF;
+  border-radius: 20px;
+  margin: 10px;
+  width: 250px;
+}
+.portfolio-curriculum button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.portfolio-curriculum button span i {
+  color: #FFFFFF;
 }
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/app/page.module.scss ***!

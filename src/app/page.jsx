@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.scss'
 import { Button } from './components/_ui/Buttons'
-import {BsFillMortarboardFill, BsBriefcaseFill} from 'react-icons/bs'
+import {BsFillMortarboardFill, BsBriefcaseFill, BsFillEnvelopeAtFill, BsFillCupHotFill} from 'react-icons/bs'
 import { H1, H2, H3, H4, P1 } from './components/_ui/Titles';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -97,10 +97,12 @@ export default function Home() {
            </div>
           </div>
         </div>
-      
-    
         <hr />
 
+        <div className='portfolio-curriculum'>
+           <button> <span> <i><BsFillEnvelopeAtFill /></i> Enviar uma Mensagem</span></button>
+           <button> <span> <i> <BsFillCupHotFill /> </i>ver currículo </span> </button>
+        </div>
        </div>
       
     </main>
