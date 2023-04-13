@@ -5,9 +5,8 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.scss'
 import { Button } from './components/_ui/Buttons'
-import {BsFillMortarboardFill, BsHouseDoorFill} from 'react-icons/bs'
+import {BsFillMortarboardFill, BsBriefcaseFill} from 'react-icons/bs'
 import { H1, H2, H3, H4, P1 } from './components/_ui/Titles';
-
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +27,60 @@ export default function Home() {
         </div>
 
        <h2 className='text-center mt-10 mb-5 portfolio-title--lg'>My skill</h2>
+
+       <div className="md:grid grid-cols-3 gap-4">
+          <div className=''>
+            <H3 name="Web Moderno" />
+            <span className='portfolio-title--xs'>fevereiro 2020 - dezembro 2022</span>
+          </div>
+          <div className='flex col-span-2'>
+            <div className='mr-10 portfolio-skill--icon'>
+             <span></span>
+             <div className='portfolio-skill--icon-item' > <BsFillMortarboardFill /></div>
+           
+            </div>
+           <div className='mb-5'>
+           <H4 name="Curso com JavaScript + Projetos" />
+            <p className='portfolio-title--xs'>Completo com Java Script 2022 + projetos, aprendeu Javascript, Html, a Css, Scss, Node, ESNext, Ajax, Gulp, Webpack, JQuery, Bootstrap, React, VueJS, Angular 9, Banco Relacional, Banco não Relacional e Express.</p>
+           </div>
+          </div>
+        </div>
+
+        <div className="md:grid grid-cols-3 gap-4">
+          <div className=''>
+            <h3 className='portfolio-title--md'>Developer</h3>
+            <span className='portfolio-title--xs'>Janeiro 2020 - presente</span>
+          </div>
+          <div className='flex col-span-2'>
+            <div className='mr-10 portfolio-skill--icon'>
+             <span></span>
+             <div className='portfolio-skill--icon-item' ><BsBriefcaseFill/></div>
+            </div>
+           <div className='mb-5'>
+            <h4 className='portfolio-title--bs'>Empresa Freelencer</h4>
+            <p className='portfolio-title--xs'>De forma independente é densevolvedor de site, desde o início do projeto até a conclusão, realizou projeto em ambas parte back-end e front-end, utilizando linguagens forte no mercado sempre trabalhando com metodologias ágeis.</p>
+           </div>
+          </div>
+        </div>
+
+        <div className="md:grid grid-cols-3 gap-4">
+          <div className=''>
+            <H3 name="SENAC" />
+            <span className='portfolio-title--xs'>junho 2022 - setembro 2022</span>
+          </div>
+          <div className='flex col-span-2'>
+            <div className='mr-10 portfolio-skill--icon'>
+             <span></span>
+             <div className='portfolio-skill--icon-item' > <BsFillMortarboardFill /></div>
+           
+            </div>
+           <div className='mb-5'>
+           <H4 name="Administrador de Banco de Dados" />
+            <p className='portfolio-title--xs'>Aprendeu HTML, a CSS, MYSQL, SQL e PHP. Instalou e configurou o sistema de banco de dados, realizou o monitoramento do uso e desempenho dos sistemas de banco de dados, manutenção e otiminização dos bancos de dados e concluíu o Projeto integrador Administrador de Banco de Dados.</p>
+           </div>
+          </div>
+        </div>
+
         <div className="md:grid grid-cols-3 gap-4">
           <div className=''>
             <H3 name="CETEP" />
@@ -36,31 +89,18 @@ export default function Home() {
           <div className='flex col-span-2'>
             <div className='mr-10 portfolio-skill--icon'>
              <span></span>
-              <BsFillMortarboardFill/>
+             <div className='portfolio-skill--icon-item' > <BsFillMortarboardFill /></div>
             </div>
            <div className='mb-5'>
-           <H4 name="Técnico em informática" />
-            <p className='portfolio-title--xs'>Localizado em Santa Maria Da Vitória, realizei ás principais atividade criação de site HTML, CSS, PHP, MYSQL e manutenção de computador.</p>
+           <H4 name="Técnico em Informática" />
+            <p className='portfolio-title--xs'>Localizado em Santa Maria Da Vitória, aprendeu lógica e Linguagens de Programação, Sistemas Operacionais, Interpretação de Especificações de Sistemas Computacionais, Banco de Dados, Sistema Operacional, Configuração e Instalação de Redes, Analista de Suporte Técnico, Manutenção de Computadores.</p>
            </div>
           </div>
         </div>
-        <div className="md:grid grid-cols-3 gap-4">
-          <div className=''>
-            <h3 className='portfolio-title--md'>Developer</h3>
-            <span className='portfolio-title--xs'>2020 - presente</span>
-          </div>
-          <div className='flex col-span-2'>
-            <div className='mr-10 portfolio-skill--icon'>
-             <span></span>
-             <BsHouseDoorFill />
-            </div>
-           <div className='mb-5'>
-            <h4 className='portfolio-title--bs'>Empresa Freelencer</h4>
-            <p className='portfolio-title--xs'>Atualmente trabalho com Freelencer, já criei vários projeto web e sistema, começei como Freelencer em 2020 e tenho 2 anos de experiência profissional no mundo do mercado web.</p>
-           </div>
-          </div>
-        </div>
+      
+    
         <hr />
+
        </div>
       
     </main>

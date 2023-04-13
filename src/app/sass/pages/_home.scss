@@ -2,7 +2,7 @@
     position: relative;
     font-size: 25px;
     span {
-        background-color: hue('secondary');
+        background-color: change-hue('dark', 'lighten', 50);
         width: 1.5px;
         position: absolute;
         height: 100%;
@@ -10,4 +10,13 @@
         transform: translateX(50%);
         z-index: -1;
     }
+    &-item {
+        background-color:  change-hue('dark', 'lighten', 5);
+        color: change-hue('light', 'darken', 5);
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 20px;
+
+    }
+    
 }
