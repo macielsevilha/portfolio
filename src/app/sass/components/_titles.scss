@@ -15,7 +15,7 @@ h4 {
     font-weight: 500 !important;
 }
 p {
-    color: hue('secondary');
+    @include slide('red');
 }
 
 @each $name, $size in $titles {

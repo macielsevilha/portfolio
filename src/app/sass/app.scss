@@ -1,9 +1,11 @@
 @import "abstracts/variables";
 @import "abstracts/functions";
+@import "abstracts/mixins";
 // Components
 @import "components/button";
 @import "components/navbar";
 @import "components/titles";
+@import "components/events";
 // Layout
 @import "layout/header";
 // Home

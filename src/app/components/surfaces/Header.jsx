@@ -5,7 +5,7 @@ export function Header() {
     return (
         <header className="portfolio-header__container">
             <div className="portfolio-header__middle">
-                <a className="portfolio-header__logo" href="">
+                <a className="portfolio-header__logo --i:1" href="">
                     <span>@</span>devmacielsevilha_
                 </a>
                 <Navbar />
