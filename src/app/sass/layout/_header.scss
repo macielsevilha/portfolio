@@ -17,8 +17,7 @@
     &__logo {
         transition: 0.5s;
         color: hue('dark');
-        @include slide('left');
-
+        @include slide('left', 0.5s);
         font: {
             size: 1.5em;
             weight: 600;

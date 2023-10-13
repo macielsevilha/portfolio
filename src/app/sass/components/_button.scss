@@ -1,18 +1,23 @@
+@import './_events.scss';
+
 %btn {
   position: relative;
   color: hue('dark');
   padding: 10px 20px;
+  @include slide('bottom', 1.75s)
 }
 
 .#{$brand}-btn__button {
   display: flex;
   justify-content: center;
+
   a {
-  @extend %btn;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
+    @extend %btn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
     &::before {
       content: '';
       position: absolute;
@@ -23,16 +28,21 @@
       transition: transform 0.5s;
       transform-origin: right;
     }
+
     &:hover {
       color: $dark-theme;
+
       &::before {
         transform: scaleX(1);
         transform-origin: left;
       }
     }
-    span, i{
+
+    span,
+    i {
       z-index: 1;
     }
+
     i {
       position: relative;
       background-color: hue('danger');
@@ -41,12 +51,14 @@
       transition: 0.5s, width 0.5s, height 0.5s;
       transition-delay: 0s, 0.5s, 1s;
     }
-    &:hover > i {
+
+    &:hover>i {
       background-color: hue('dark');
       transition-delay: 0s, 0.5s, 1s;
       width: 30px;
       height: 3px;
     }
+
     @mixin animaton($n) {
       i::#{$n} {
         content: '';
@@ -63,19 +75,21 @@
     }
 
     @include animaton('after');
-      &:hover i::after {
-        transition-delay: 1.5s;
-        background-color: hue('dark');
-        rotate: 45deg;
-      }
+
+    &:hover i::after {
+      transition-delay: 1.5s;
+      background-color: hue('dark');
+      rotate: 45deg;
+    }
 
     @include animaton('before');
-      &:hover i::before {
-        transition-delay: 1.0s;
-        background-color: hue('dark');
-        rotate: -45deg;
-      }
-    
+
+    &:hover i::before {
+      transition-delay: 1.0s;
+      background-color: hue('dark');
+      rotate: -45deg;
+    }
+
   }
 
 }

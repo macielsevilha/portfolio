@@ -10,6 +10,9 @@
             align-items: center;
             padding: 7px 20px;
             gap: 10px;
+            @include slide('bottom', 0.5s);
+            animation-delay: calc(0.2s * var(--i));
+           
 
             i {
                 display: none;

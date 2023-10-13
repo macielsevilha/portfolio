@@ -1,21 +1,55 @@
-@mixin slide($positon) {
-animation: slide-#{$positon} 0.5s linear forwards;
+@mixin slide($positon, $duration) {
+    animation: slide-#{$positon} 0.5s linear forwards;
+    animation-delay: $duration;
+    opacity: 0;
 
     @keyframes slide-left {
         0% {
-            transform: translateX(-100%);
+            transform: translateX(-100px);
+            opacity: 0;
         }
+
         100% {
-            transform: translateX(0%);
+            transform: translateX(0px);
+            opacity: 1;
         }
     }
+
     @keyframes slide-top {
         0% {
-            transform: translateY(-100%);
+            transform: translateY(-100px);
+            opacity: 0;
         }
+
         100% {
-            transform: translateY(0%);
-           
+            transform: translateY(0px);
+            opacity: 1;
+
+        }
+    }
+    @keyframes slide-right {
+        0% {
+            transform: translateX(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(0px);
+            opacity: 1;
+
+        }
+    }
+
+    @keyframes slide-bottom {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+
         }
     }
 }

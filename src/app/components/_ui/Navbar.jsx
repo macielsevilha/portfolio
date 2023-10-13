@@ -17,15 +17,15 @@ export function Navbar() {
                 <button></button>
             </div>
             <ul className={`portfolio-navbar__items ${id?.target.className.replace('ropdown', 'active')}`} >
-                <li>
+                <li style={{'--i': 1}}>
                     <i><BsChatDotsFill /></i>
                     <Link href={''}>Currículo</Link>
                 </li>
-                <li>
+                <li style={{'--i': 2}}>
                     <i><BsChatDotsFill /></i>
                     <Link href={''}>Contato</Link>
                 </li>
-                <li className="portfolio-navbar--item">
+                <li style={{'--i': 3}} className="portfolio-navbar--item">
                     <i><BsFillPersonLinesFill /></i>
                     <Link href={''}>Projetos</Link>
                 </li>

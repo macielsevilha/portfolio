@@ -285,12 +285,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 673:
+/***/ 6237:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1797, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3643, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 9846, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1797, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7834, 23))
 
 /***/ }),
@@ -484,6 +484,9 @@ function Navbar() {
                 className: `portfolio-navbar__items ${id?.target.className.replace("ropdown", "active")}`,
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                        style: {
+                            "--i": 1
+                        },
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_bs__WEBPACK_IMPORTED_MODULE_3__/* .BsChatDotsFill */ .cYW, {})
@@ -495,6 +498,9 @@ function Navbar() {
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                        style: {
+                            "--i": 2
+                        },
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_bs__WEBPACK_IMPORTED_MODULE_3__/* .BsChatDotsFill */ .cYW, {})
@@ -506,6 +512,9 @@ function Navbar() {
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("li", {
+                        style: {
+                            "--i": 3
+                        },
                         className: "portfolio-navbar--item",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
