@@ -7,10 +7,13 @@ import styles from './page.module.scss'
 import { Button } from './components/_ui/Buttons'
 import {BsFillMortarboardFill, BsBriefcaseFill, BsFillEnvelopeAtFill, BsFillCupHotFill} from 'react-icons/bs'
 import { H1, H2, H3, H4, P1 } from './components/_ui/Titles';
+import { useEffect, useRef } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 export default function Home() {
+
   return (
     <main className={styles.main}>
        <div className='xl:w-7/12 lg:w-8/12 md:w-10/12 w-11/12'>
@@ -19,7 +22,11 @@ export default function Home() {
           <H2 name="desenvolvedor web" />
           <p className='portfolio-title--bs'>teve inicio há mais de 3 anos estundando programação web em ambas parte back-end e front-end, comecou seu primeiro projeto profissional em 2022 como desenvolvedor Freelencer, atualmente tenho 20 anos de idade.</p>
           <div className='flex justify-center'>
-            <Image className='rounded-full mt-5 md:w-[350px] xs:w-[300px]' src="/minha.png" alt="" width={250} height={250} />
+           <div className="portfolio-box--rotator">
+              <div className="portfolio-box--content">
+                <img src="minha.png" alt="" />
+              </div>
+           </div>
           </div>
           <div className='md:flex items-end justify-end text-center mt-5'>
               <Button name="clique aqui"/>
