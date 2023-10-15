@@ -486,9 +486,6 @@ video {
 .mt-5 {
   margin-top: 1.25rem;
 }
-.block {
-  display: block;
-}
 .flex {
   display: flex;
 }
@@ -509,9 +506,6 @@ video {
 }
 .gap-4 {
   gap: 1rem;
-}
-.rounded-full {
-  border-radius: 9999px;
 }
 .p-10 {
   padding: 2.5rem;
@@ -548,10 +542,6 @@ video {
 
   .md\:w-10\/12 {
     width: 83.333333%;
-  }
-
-  .md\:w-\[350px\] {
-    width: 350px;
   }
 }
 @media (min-width: 1024px) {

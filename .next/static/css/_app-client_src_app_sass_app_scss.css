@@ -641,33 +641,50 @@ p {
 }
 
 .portfolio-box--rotator {
+  margin: 20px;
+  position: relative;
   background-color: #333;
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  margin: 20px;
-  position: relative;
   overflow: hidden;
 }
-.portfolio-box--rotator ::before {
+.portfolio-box--rotator::before {
   content: "";
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  inset: -20px 80px;
+  background-color: line;
   background: #7f00ff;
-  background: linear-gradient(to top, #05f228, #d200ee);
-  position: absolute;
-  animation: rotator 5s linear infinite;
+  background: linear-gradient(to top, #3620df, rgba(169, 1, 191, 0.8156862745));
+  animation: rotator 4s linear infinite;
+  transition: 0.5s;
 }
-.portfolio-box--rotator ::after {
-  content: "";
-  inset: 5px;
-  background-color: #333;
-  position: absolute;
-  border-radius: 50%;
-}
-
 @keyframes rotator {
   100% {
     transform: rotate(360deg);
   }
+}
+.portfolio-box--rotator:hover::before {
+  inset: -5px;
+}
+.portfolio-box--rotator::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  inset: 10px;
+}
+.portfolio-box--content {
+  position: absolute;
+  border-radius: 50%;
+  inset: 30px;
+  z-index: 2;
+  border: 5px solid #e1e1e1;
+  overflow: hidden;
+  display: flex;
+}
+.portfolio-box--content img {
+  pointer-events: none;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

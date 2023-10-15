@@ -24,7 +24,7 @@ export default function Home() {
           <div className='flex justify-center'>
            <div className="portfolio-box--rotator">
               <div className="portfolio-box--content">
-                <img src="minha.png" alt="" />
+                <img src="./minha.png" alt="" />
               </div>
            </div>
           </div>
