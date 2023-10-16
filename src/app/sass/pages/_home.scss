@@ -82,7 +82,7 @@
         &::after {
             content: '';
             position: absolute;
-            background-color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
             border-radius: 50%;
             inset: 10px;
           
@@ -101,4 +101,13 @@
            object-fit: cover;
         }
     }
+}
+
+body {
+    background-image: url('../../pexels-frank-cone-6508135.jpg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    
 }

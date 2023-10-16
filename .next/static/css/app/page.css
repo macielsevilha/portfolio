@@ -598,6 +598,10 @@ p {
   color: #007BFF;
 }
 
+body {
+  background-color: red;
+}
+
 .portfolio-skill--icon {
   position: relative;
   font-size: 25px;
@@ -670,7 +674,7 @@ p {
 .portfolio-box--rotator::after {
   content: "";
   position: absolute;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   border-radius: 50%;
   inset: 10px;
 }
@@ -687,6 +691,14 @@ p {
   pointer-events: none;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+body {
+  background-image: url(/_next/static/media/pexels-frank-cone-6508135.25a32969.jpg);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #000000;
 }
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[10].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[10].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[10].use[5]!./src/app/page.module.scss ***!
