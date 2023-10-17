@@ -50,7 +50,7 @@
     &-box--rotator {
         margin: 20px;
         position: relative;
-        background-color: #333;
+        background-color: #ffffff;
         width: 250px;
         height: 250px;
         border-radius: 50%;
@@ -59,7 +59,7 @@
         &::before {
             content: '';
             position: absolute;
-            inset: -20px 80px;
+            inset: -20px 50px;
             background-color: line;
 
             background: #7f00ff;
@@ -82,18 +82,19 @@
         &::after {
             content: '';
             position: absolute;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
             border-radius: 50%;
-            inset: 10px;
+            inset: 3px;
           
         }
     }
     &-box--content {
         position: absolute;
         border-radius: 50%;
-        inset: 30px;
+        inset: 20px;
         z-index: 2;
-        border: 5px solid #e1e1e1;
+        border: 1px solid #e1e1e1;
+        box-shadow: 0px 0px 15px -5px black;
         overflow: hidden;
         display: flex;
         img {
@@ -103,11 +104,11 @@
     }
 }
 
-body {
-    background-image: url('../../pexels-frank-cone-6508135.jpg');
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-color: #000000;
+// body {
+//     background-image: url('../../pexels-frank-cone-6508135.jpg');
+//     background-size: contain;
+//     background-position: top;
+//     background-repeat: no-repeat;
+//     background-color: #000000;
     
-}
+// }

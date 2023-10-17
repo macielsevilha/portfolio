@@ -3,6 +3,7 @@
         background-color: hue('light');
         display: flex;
         justify-content: center;
+        box-shadow: 0px 0px 15px -5px black;
     }
 
     &__middle {
@@ -29,6 +30,3 @@
     }
 }
 
-body {
-    background-color: red;
-  }

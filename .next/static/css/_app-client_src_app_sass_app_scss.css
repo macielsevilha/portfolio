@@ -1,0 +1,629 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[2].oneOf[14].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[2].oneOf[14].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[2].oneOf[14].use[5]!./src/app/sass/app.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.portfolio-curriculum button, .portfolio-btn__button .btn-primary {
+  position: relative;
+  color: #343A40;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 10px -3px black;
+  animation: slide-bottom 0.5s linear forwards;
+  animation-delay: 1.75s;
+  opacity: 0;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.portfolio-btn__button {
+  margin: 10px;
+}
+.portfolio-btn__button .btn-primary {
+  background-color: #007BFF;
+}
+.portfolio-btn__button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #343A40;
+}
+
+.portfolio-navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.portfolio-navbar__items li {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 20px;
+  gap: 10px;
+  animation: slide-bottom 0.5s linear forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.portfolio-navbar__items li i {
+  display: none;
+  color: #FFFFFF;
+}
+.portfolio-navbar__items li a {
+  color: #343A40;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.portfolio-navbar--item {
+  border-width: 2.5px;
+  border-color: #b2bac1;
+  border-radius: 50px;
+}
+.portfolio-navbar--item:hover {
+  background-color: #f9f9fa;
+}
+@media (max-width: 700px) {
+  .portfolio-navbar--item {
+    border: none;
+  }
+  .portfolio-navbar--item:hover {
+    background-color: transparent;
+  }
+  .portfolio-navbar__icon {
+    display: block;
+  }
+  .portfolio-navbar__icon button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292d32;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+  }
+  .portfolio-navbar__icon button::after {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    transform: translateY(-10px);
+    box-shadow: 0 10px #FFFFFF;
+    transition: 0.5s;
+    width: 30px;
+    height: 3px;
+  }
+  .portfolio-navbar__icon button::before {
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF;
+    transform: translateY(10px);
+    box-shadow: 0 0px #FFFFFF;
+    transition: 0.5s;
+    width: 30px;
+    height: 3px;
+  }
+  .portfolio-navbar .portfolio-navbar-toggler {
+    transition: 0.5s ease-in-out;
+  }
+  .portfolio-navbar .portfolio-navbar-toggler--ropdown::after {
+    background-color: #DC3545;
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+  .portfolio-navbar .portfolio-navbar-toggler--ropdown::before {
+    background-color: #DC3545;
+    transform: rotate(-45deg);
+  }
+  .portfolio-navbar .portfolio-navbar-toggler--active {
+    position: absolute;
+    background-color: #3f474e;
+    display: block;
+    right: 0;
+    top: 60px;
+    transition: 0.5s ease-in-out;
+  }
+  .portfolio-navbar ul {
+    display: none;
+  }
+  .portfolio-navbar ul i {
+    display: block;
+  }
+  .portfolio-navbar ul a {
+    color: #FFFFFF;
+  }
+}
+
+h1 {
+  color: #DC3545;
+  font-weight: 800 !important;
+  animation: slide-right 0.5s linear forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+h2 {
+  font-weight: 700 !important;
+  animation: slide-right 0.5s linear forwards;
+  animation-delay: 1.25s;
+  opacity: 0;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+h3 {
+  color: #343A40;
+  font-weight: 600 !important;
+  animation: slide-right 0.5s linear forwards;
+  animation-delay: 1.25s;
+  opacity: 0;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+h4 {
+  color: #343A40;
+  font-weight: 500 !important;
+  animation: slide-right 0.5s linear forwards;
+  animation-delay: 1.25s;
+  opacity: 0;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+p {
+  color: #6C757D;
+  animation: slide-left 0.5s linear forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.portfolio-title--xs {
+  font-size: 14px;
+}
+
+.portfolio-title--bs {
+  font-size: 16px;
+}
+
+.portfolio-title--md {
+  font-size: 20px;
+}
+
+.portfolio-title--lg {
+  font-size: 24px;
+}
+
+.portfolio-title--xl {
+  font-size: 32px;
+}
+
+.portfolio-header__container {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 15px -5px black;
+}
+.portfolio-header__middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px 20px;
+}
+.portfolio-header__logo {
+  transition: 0.5s;
+  color: #343A40;
+  animation: slide-left 0.5s linear forwards;
+  animation-delay: 0.5s;
+  opacity: 0;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+.portfolio-header__logo span {
+  color: #007BFF;
+}
+
+.portfolio-skill--icon {
+  position: relative;
+  font-size: 25px;
+}
+.portfolio-skill--icon span {
+  background-color: #b2bac1;
+  width: 1.5px;
+  position: absolute;
+  height: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: -1;
+}
+.portfolio-skill--icon-item {
+  background-color: #3f474e;
+  color: #f2f2f2;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.portfolio-curriculum {
+  margin-top: 5rem;
+  text-align: center;
+}
+.portfolio-curriculum button {
+  background-color: #DC3545;
+  color: #FFFFFF;
+  border-radius: 20px;
+  margin: 10px;
+  width: 250px;
+}
+.portfolio-curriculum button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.portfolio-curriculum button span i {
+  color: #FFFFFF;
+}
+
+.portfolio-box--rotator {
+  margin: 20px;
+  position: relative;
+  background-color: #ffffff;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.portfolio-box--rotator::before {
+  content: "";
+  position: absolute;
+  inset: -20px 50px;
+  background-color: line;
+  background: #7f00ff;
+  background: linear-gradient(to top, #3620df, rgba(169, 1, 191, 0.8156862745));
+  animation: rotator 4s linear infinite;
+  transition: 0.5s;
+}
+@keyframes rotator {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.portfolio-box--rotator:hover::before {
+  inset: -5px;
+}
+.portfolio-box--rotator::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  inset: 3px;
+}
+.portfolio-box--content {
+  position: absolute;
+  border-radius: 50%;
+  inset: 20px;
+  z-index: 2;
+  border: 1px solid #e1e1e1;
+  box-shadow: 0px 0px 15px -5px black;
+  overflow: hidden;
+  display: flex;
+}
+.portfolio-box--content img {
+  pointer-events: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
