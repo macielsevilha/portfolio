@@ -59,12 +59,11 @@
         &::before {
             content: '';
             position: absolute;
-            inset: -20px 50px;
-            background-color: line;
+            inset: -20px 60px;
 
             background: #7f00ff;
             background: -webkit-linear-gradient(to right, #7f00ff, #e100ff);
-            background: linear-gradient(to top, #3620df, #a901bfd0);
+            background: linear-gradient(to right, $primary, $danger);
             animation: rotator 4s linear infinite;
             transition: 0.5s;
            
@@ -76,7 +75,7 @@
             }
         }
         &:hover::before {
-            inset: -5px;
+            inset: -3px;
         }
 
         &::after {
@@ -84,14 +83,14 @@
             position: absolute;
             background-color: rgb(255, 255, 255);
             border-radius: 50%;
-            inset: 3px;
+            inset: 20px;
           
         }
     }
     &-box--content {
         position: absolute;
         border-radius: 50%;
-        inset: 20px;
+        inset: 10px;
         z-index: 2;
         border: 1px solid #e1e1e1;
         box-shadow: 0px 0px 15px -5px black;

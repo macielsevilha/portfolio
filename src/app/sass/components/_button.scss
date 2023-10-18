@@ -2,32 +2,58 @@
 
 %btn {
   position: relative;
-  color: hue('dark');
   padding: 10px 20px;
   width: 150px;
-  border-radius: 10px;
-  box-shadow: 1px 0px 10px -3px black;
+  // border-radius: 10px;
+  // box-shadow: 5px 5px 10px -5px rgb(141, 141, 141);
   @include slide('bottom', 1.75s)
 }
 
 .#{$brand}-btn__button {
 
-  .btn-primary {
-    @extend %btn;
-    background-color: $primary;
-  }
-
-  margin: 10px;
-
-
   a {
-  
+    position: relative;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: $dark;
+
+    &:nth-child(1)::before, &:nth-child(1)::after {
+      background: linear-gradient(45deg, $primary,$secondary, $danger);
+    }
+
+    &::before, &::after {
+      content: '';
+      position: absolute;
+      transition: 0.3s;
+      inset: 0;
+
+    }
+    &:hover::before {
+      inset: -3px;
+    }
+    &:hover::after {
+      inset: -3px;
+    
+     filter: blur(5px);
+    }
+
+    span {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font-size: 20px;
+      color: rgb(231, 231, 231);
+      background-color: $dark;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+  
+    }
+
   }
+ 
 
   //   &::before {
   //     content: '';

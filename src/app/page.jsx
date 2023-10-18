@@ -30,8 +30,7 @@ export default function Home() {
           </div>
           <div className='md:flex items-end justify-end text-center mt-5'>
               <div className='flex items-center flex-col md:flex-row'> 
-               <Button name="clique aqui"/>
-               <Button btn='btn-primary' name="clique aqui"/>
+               <Button btn="btn-primary" name="visualizar CV"/>
               </div>
             </div>
         </div>
