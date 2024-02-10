@@ -3,7 +3,6 @@ import React from 'react';
 
 import styles from './Header.module.scss'
 import Logo from '../_ui/Logo'
-import Link from '../_ui/Link';
 
 import Navbar from '../_ui/Navbar';
 
@@ -12,10 +11,8 @@ const HeaderLayout = () => {
     <header className={styles.header}>
      <Logo name="dev.maciel" />
      <Navbar>
-     <li><Link className={'link'} href="/">Home</Link></li>
-        <li><Link className={'link'} href="servicos">Serviços</Link></li>
-        <li><Link className={'link'} href="projetos">Projetos</Link></li>
-        <li><Link className={'link'} href="/sobre">Sobre</Link></li>
+     
+     
      </Navbar>
     </header>
   );

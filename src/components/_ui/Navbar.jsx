@@ -1,4 +1,4 @@
-import  Link  from '../_ui/Link';
+
 import styles from './Navbar.module.scss';
 
 
