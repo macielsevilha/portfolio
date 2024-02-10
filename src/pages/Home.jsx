@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
+
 import styles from '../styles/pages/Home.module.scss';
-import { Heading3, Heading2, Heading1, Paragrafo } from '../components/_ui/Header';
-import Button from '../components/_ui/Button';
-import Link from '../components/_ui/Link';
-import { CssIcon, HtmlIcon, PhpIcon } from '../components/_ui/SvgIcons';
+
 import perfil from '../perfil.png';
 const Home = () => {
    return (
