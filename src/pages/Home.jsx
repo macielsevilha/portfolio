@@ -9,7 +9,7 @@ const Home = () => {
       <div className={styles.content}>
         <h2 className={styles.title}>Title da aplication</h2>
         <p className={styles}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem id iusto accusantium fugit cum! Id doloremque, perferendis minus sint dignissimos accusantium sapiente sed natus accusamus nesciunt quis voluptate libero rerum!</p>
-        <a href="#" className='btn btn-link'>Contact me</a>
+  
      
       
       </div>
