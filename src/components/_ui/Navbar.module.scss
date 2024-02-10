@@ -2,8 +2,14 @@
     .itens {
         display: flex;
         gap: 20px;
-        li {
+        .item {
+           
             list-style: none;
+           
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
     }
 }

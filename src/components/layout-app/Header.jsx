@@ -11,8 +11,7 @@ const HeaderLayout = () => {
     <header className={styles.header}>
      <Logo name="dev.maciel" />
      <Navbar>
-     
-     
+       
      </Navbar>
     </header>
   );
