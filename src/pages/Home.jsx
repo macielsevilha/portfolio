@@ -16,8 +16,7 @@ const Home = () => {
     </section>
    </div>
    <div>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi explicabo excepturi deleniti voluptatibus ullam dolor? Omnis facilis obcaecati molestiae excepturi accusamus minima maiores sint, quasi asperiores assumenda tenetur aliquid explicabo?</h1>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi explicabo excepturi deleniti voluptatibus ullam dolor? Omnis facilis obcaecati molestiae excepturi accusamus minima maiores sint, quasi asperiores assumenda tenetur aliquid explicabo?</h1>
+  
     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi explicabo excepturi deleniti voluptatibus ullam dolor? Omnis facilis obcaecati molestiae excepturi accusamus minima maiores sint, quasi asperiores assumenda tenetur aliquid explicabo?</h1>
     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi explicabo excepturi deleniti voluptatibus ullam dolor? Omnis facilis obcaecati molestiae excepturi accusamus minima maiores sint, quasi asperiores assumenda tenetur aliquid explicabo?</h1>
     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi explicabo excepturi deleniti voluptatibus ullam dolor? Omnis facilis obcaecati molestiae excepturi accusamus minima maiores sint, quasi asperiores assumenda tenetur aliquid explicabo?</h1>
