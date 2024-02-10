@@ -8,11 +8,15 @@
 }
 
 .Header-layout {
+  position: fixed;
+  z-index: 100;
+  margin-bottom: 70px;
   display: flex;
   justify-content: center;
-  background-color: var(--color05);
+  /* background-color: var(--color03); */
   height: 80px;
   width: 100%;
+  backdrop-filter: blur(20px);
   box-shadow: 0 2px 5px rgba(160, 160, 160, 0.5); /* Sombra branca */
 }
 .Main-layout {

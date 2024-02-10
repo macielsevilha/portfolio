@@ -17,10 +17,6 @@ const HeaderLayout = () => {
         <li><Link className={'link'} href="projetos">Projetos</Link></li>
         <li><Link className={'link'} href="/sobre">Sobre</Link></li>
      </Navbar>
-     <div>
-      {/* <Button name="dowload do CV"/> */}
-     </div>
-     <button>Button</button>
     </header>
   );
 };
