@@ -30,7 +30,17 @@ export default {
     methods: {
       ToggleEvent() {
        this.isMenuVisible = !this.isMenuVisible;
-      }
+
+       if(this.isMenuVisible) document.addEventListener('click', this.closeMenu)
+       else document.removeEventListener('click', this.closeMenu)
+      },
+      closeMenu(event) {
+        if(!this.$el.contains(event.target)) {
+          this.isMenuVisible = false;
+          document.removeEventListener('click', this.closeMenu)
+        }
+       }
+      
     }
 }
 </script>
@@ -94,10 +104,8 @@ export default {
       position: absolute;
       width: 30px;
       height: 3px;
-
       background-color: var(--color-white);
       transform: translateY(10px);
-
       transition: 0.5s;
     }
 
